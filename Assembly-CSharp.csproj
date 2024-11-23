@@ -66,9 +66,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\Scripts\GameInput.cs" />
+    <Compile Include="Assets\PlayerInputActions.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Ilya\task.txt" />
+    <None Include="Assets\Ilya 1\task.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
