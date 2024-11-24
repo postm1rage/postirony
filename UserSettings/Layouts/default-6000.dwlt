@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 94
+  controlID: 39
   draggingID: 0
 --- !u!114 &6
 MonoBehaviour:
@@ -192,8 +192,8 @@ MonoBehaviour:
     y: 0
     width: 371
     height: 553
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 226}
+  m_MaxSize: {x: 4001, y: 4026}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -399,7 +399,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Egor/Arts/first_boss
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -409,17 +409,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Egor/Arts/first_boss
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439
-    \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony"
+  m_LastProjectPath: C:\Users\pro10\postirony
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: a8af0000
-    m_LastClickedID: 44968
-    m_ExpandedIDs: 00000000c2af0000aab00000acb00000aeb00000b0b00000b2b00000b4b0000000ca9a3b
+    m_SelectedIDs: 2cb10000
+    m_LastClickedID: 45356
+    m_ExpandedIDs: 000000006aae00006cae00006eae000070ae000072ae000074ae000076ae000024b1000030b1000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -448,7 +447,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000c2af0000aab00000acb00000aeb00000b0b00000b2b00000b4b00000
+    m_ExpandedIDs: 000000006aae00006cae00006eae000070ae000072ae000074ae000076ae0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -476,7 +475,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000050af0000f4b50000b4be0000f0ba000092b000008cb00000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -545,9 +544,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5cb00000
-      m_LastClickedID: 45148
-      m_ExpandedIDs: 28f8ffff
+      m_SelectedIDs: 00ae0000
+      m_LastClickedID: 44544
+      m_ExpandedIDs: e8faffffecad0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1137,9 +1136,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: -0.048488297, y: -0.70962423, z: 0}
+    m_Target: {x: -0.40653023, y: -0.13220398, z: -0.010368752}
     speed: 2
-    m_Value: {x: -0.048488297, y: -0.70962423, z: 0}
+    m_Value: {x: -0.40653023, y: -0.13220398, z: -0.010368752}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1189,9 +1188,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 0, y: 0, z: 0, w: 1}
   m_Size:
-    m_Target: 4.211816
+    m_Target: 5.2486887
     speed: 2
-    m_Value: 4.211816
+    m_Value: 5.2486887
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -1302,7 +1301,7 @@ MonoBehaviour:
       y: 21
       width: 1165
       height: 506
-    m_Scale: {x: 1, y: 1}
+    m_Scale: {x: 5, y: 5}
     m_Translation: {x: 582.5, y: 253}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -1310,10 +1309,10 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -582.5
-      y: -253
-      width: 1165
-      height: 506
+      x: -116.5
+      y: -50.6
+      width: 233
+      height: 101.2
     m_MinimalGUI: 1
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1165, y: 527}

@@ -71,6 +71,11 @@
     <Compile Include="Assets\PlayerInputActions.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Ilya\task.txt" />
+    <None Include="Assets\Egor\task.txt" />
+    <None Include="Assets\Kirill\task.txt" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="UnityEngine">
       <HintPath>C:\Program Files\Unity\Hub\Editor\6000.0.28f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
       <Private>False</Private>
