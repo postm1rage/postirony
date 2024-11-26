@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 3b547316b65174045b89282f8a871fe9
+guid: 4e0f835f9f23fbd49af8a0ec73290b80
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5779290098838641296
-    second: first_boss_with_gun_anim_1 1_0
+      213: -485046851508193364
+    second: Floor-sprite-01-Sheet_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: first_boss_with_gun_anim_1 1_0
+      name: Floor-sprite-01-Sheet_0
       rect:
         serializedVersion: 2
-        x: 29
-        y: 9
-        width: 282
-        height: 302
+        x: 0
+        y: 0
+        width: 160
+        height: 160
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 09a953399b9243050800000000000000
-      internalID: 5779290098838641296
+      spriteID: ca7be6c5574c449f0800000000000000
+      internalID: -485046851508193364
       vertices: []
       indices: 
       edges: []
@@ -147,8 +147,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      first_boss_with_gun_anim_1 1_0: 5779290098838641296
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
