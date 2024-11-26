@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 6594e8e13353ac644bc8e7aa403210d2
+guid: d218cd92589c96b4297278ad2fa7b434
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7378380084101221839
-    second: oleg_walking_0
-  - first:
-      213: 2107475449911938896
-    second: oleg_walking_1
+      213: -9032932200837614694
+    second: Chair-sprite-01_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -99,62 +96,27 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oleg_walking_0
+      name: Chair-sprite-01_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 18
-        width: 16
-        height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.06666667}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1327455e76aba9990800000000000000
-      internalID: -7378380084101221839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oleg_walking_1
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 2
         y: 0
-        width: 16
+        width: 12
         height: 16
-      alignment: 9
-      pivot: {x: 0.5, y: 0.0625}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05f8bdc71c14f3d10800000000000000
-      internalID: 2107475449911938896
+      spriteID: a93f2e8950494a280800000000000000
+      internalID: -9032932200837614694
       vertices: []
       indices: 
       edges: []
@@ -163,7 +125,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 16093486ae33d674c8c0775bfb77c162
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -172,9 +134,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      oleg_walking_0: -7378380084101221839
-      oleg_walking_1: 2107475449911938896
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
