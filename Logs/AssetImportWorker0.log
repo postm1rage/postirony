@@ -15,7 +15,7 @@ C:/Users/pro10/postirony
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54041
+54253
 -job-worker-count
 5
 -background-job-worker-count
@@ -59,12 +59,12 @@ C:/Users/pro10/postirony
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [22344]  Target information:
+Player connection [14660]  Target information:
 
-Player connection [22344]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 2802944371 [EditorId] 2802944371 [Version] 1048832 [Id] WindowsEditor(7,postm1rage) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [14660]  * "[IP] 192.168.0.102 [Port] 0 [Flags] 2 [Guid] 4032906357 [EditorId] 4032906357 [Version] 1048832 [Id] WindowsEditor(7,postm1rage) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [22344] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [22344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14660] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [14660] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 5
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.87 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.28f1 (f336aca0cab5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Resources/UnitySubsystems
@@ -91,42 +91,42 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56592
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56780
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.28f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002793 seconds.
-- Loaded All Assemblies, in  0.384 seconds
+Registered in 0.002403 seconds.
+- Loaded All Assemblies, in  0.364 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.347 seconds
-Domain Reload Profiling: 729ms
-	BeginReloadAssembly (121ms)
+- Finished resetting the current domain, in  0.345 seconds
+Domain Reload Profiling: 708ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (50ms)
-	LoadAllAssembliesAndSetupDomain (162ms)
-		LoadAssemblies (119ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (48ms)
+	LoadAllAssembliesAndSetupDomain (146ms)
+		LoadAssemblies (120ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (160ms)
-			TypeCache.Refresh (158ms)
-				TypeCache.ScanAssembly (146ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (141ms)
+				TypeCache.ScanAssembly (129ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (0ms)
-	FinalizeReload (347ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (345ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (301ms)
+		SetupLoadedEditorAssemblies (298ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (22ms)
 			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (6ms)
-			ProcessInitializeOnLoadAttributes (203ms)
+			BeforeProcessingInitializeOnLoad (5ms)
+			ProcessInitializeOnLoadAttributes (200ms)
 			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
@@ -136,7 +136,7 @@ Domain Reload Profiling: 729ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.004 seconds
+- Loaded All Assemblies, in  0.972 seconds
 Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -155,86 +155,62 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
 
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.921 seconds
-Domain Reload Profiling: 1922ms
-	BeginReloadAssembly (399ms)
+- Finished resetting the current domain, in  0.903 seconds
+Domain Reload Profiling: 1871ms
+	BeginReloadAssembly (393ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (30ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (517ms)
-		LoadAssemblies (327ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (492ms)
+		LoadAssemblies (320ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (286ms)
-			TypeCache.Refresh (209ms)
-				TypeCache.ScanAssembly (190ms)
-			BuildScriptInfoCaches (63ms)
+		AnalyzeDomain (268ms)
+			TypeCache.Refresh (191ms)
+				TypeCache.ScanAssembly (174ms)
+			BuildScriptInfoCaches (64ms)
 			ResolveRequiredComponents (10ms)
-	FinalizeReload (921ms)
+	FinalizeReload (903ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (668ms)
+		SetupLoadedEditorAssemblies (660ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
 			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (493ms)
-			ProcessInitializeOnLoadMethodAttributes (95ms)
+			ProcessInitializeOnLoadAttributes (478ms)
+			ProcessInitializeOnLoadMethodAttributes (102ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (7ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6559 unused Assets / (5.7 MB). Loaded Objects now: 7338.
-Memory consumption went from 199.7 MB to 194.0 MB.
-Total: 11.236100 ms (FindLiveObjects: 0.656400 ms CreateObjectMapping: 0.657900 ms MarkObjects: 6.156800 ms  DeleteObjects: 3.764000 ms)
+Unloading 6559 unused Assets / (4.4 MB). Loaded Objects now: 7338.
+Memory consumption went from 197.9 MB to 193.6 MB.
+Total: 8.687800 ms (FindLiveObjects: 0.588300 ms CreateObjectMapping: 0.704300 ms MarkObjects: 5.264700 ms  DeleteObjects: 2.129500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 475426.248178 seconds.
-  path: Assets/Ilya/AK47.png
-  artifactKey: Guid(bf10584fe5bb8e14393384e002b8ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ilya/AK47.png using Guid(bf10584fe5bb8e14393384e002b8ef86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4fdb5bba4b8cbafa4c00b2e430780162') in 0.0842123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Ilya/oleg_staying.png
-  artifactKey: Guid(b6f35faeffcacf44bb59432e41f688e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Ilya/oleg_staying.png using Guid(b6f35faeffcacf44bb59432e41f688e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '08f95f7bc01c5543695738831f80319e') in 0.0177698 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.165520 seconds.
-  path: Assets/Egor/Prefabs
-  artifactKey: Guid(59b26b60750109c43912a63fd2944da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Egor/Prefabs using Guid(59b26b60750109c43912a63fd2944da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28eeb0e5bc792812c682e255a9bf2a14') in 0.0006779 seconds
+  Time since last request: 477297.867687 seconds.
+  path: Assets/Scenes/postirony.unity
+  artifactKey: Guid(2bcda55befb81e748bd2ce282ecd2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/postirony.unity using Guid(2bcda55befb81e748bd2ce282ecd2988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19caa72afe7f38de0ff398f66bf0be6d') in 0.0049969 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.011503 seconds.
-  path: Assets/Egor/Prefabs/minigun_Bullet.prefab
-  artifactKey: Guid(680f04b62661fe84e901060b13f4b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Egor/Prefabs/minigun_Bullet.prefab using Guid(680f04b62661fe84e901060b13f4b73c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '73faf7d145caf59de34ab73db5e6514c') in 0.385261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
-
-========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.654 seconds
+- Loaded All Assemblies, in  0.664 seconds
 Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
 UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
@@ -253,1053 +229,55 @@ UnityEngine.Logger:Log (UnityEngine.LogType,object)
 UnityEngine.Debug:LogError (object)
 UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
 
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.859 seconds
-Domain Reload Profiling: 1513ms
-	BeginReloadAssembly (205ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (23ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (20ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (369ms)
-		LoadAssemblies (277ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (178ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (157ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (860ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (74ms)
-			ProcessInitializeOnLoadAttributes (418ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.1 MB). Loaded Objects now: 7393.
-Memory consumption went from 171.8 MB to 167.7 MB.
-Total: 8.380800 ms (FindLiveObjects: 0.722900 ms CreateObjectMapping: 0.608400 ms MarkObjects: 5.120400 ms  DeleteObjects: 1.928100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.642 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.877 seconds
-Domain Reload Profiling: 1519ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (17ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (379ms)
-		LoadAssemblies (278ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (186ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (166ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (877ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (585ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (449ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.16 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.2 MB). Loaded Objects now: 7395.
-Memory consumption went from 171.7 MB to 167.5 MB.
-Total: 7.616600 ms (FindLiveObjects: 0.537400 ms CreateObjectMapping: 0.471400 ms MarkObjects: 4.532100 ms  DeleteObjects: 2.075000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.677 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.857 seconds
-Domain Reload Profiling: 1535ms
-	BeginReloadAssembly (198ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (299ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (202ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (179ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (858ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (424ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.1 MB). Loaded Objects now: 7397.
-Memory consumption went from 171.7 MB to 167.6 MB.
-Total: 7.030400 ms (FindLiveObjects: 0.570600 ms CreateObjectMapping: 0.480300 ms MarkObjects: 4.135100 ms  DeleteObjects: 1.843500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.681 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.868 seconds
-Domain Reload Profiling: 1549ms
-	BeginReloadAssembly (187ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (418ms)
-		LoadAssemblies (289ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (215ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (187ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (868ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (563ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (430ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (15ms)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.0 MB). Loaded Objects now: 7399.
-Memory consumption went from 171.7 MB to 167.7 MB.
-Total: 7.358700 ms (FindLiveObjects: 0.569500 ms CreateObjectMapping: 0.525300 ms MarkObjects: 4.256500 ms  DeleteObjects: 2.006500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.660 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.829 seconds
-Domain Reload Profiling: 1489ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (47ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (406ms)
-		LoadAssemblies (285ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (186ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (830ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (550ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (416ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.6 MB). Loaded Objects now: 7401.
-Memory consumption went from 171.6 MB to 167.1 MB.
-Total: 7.706200 ms (FindLiveObjects: 0.551400 ms CreateObjectMapping: 0.459900 ms MarkObjects: 4.449100 ms  DeleteObjects: 2.244700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.659 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.43 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.851 seconds
-Domain Reload Profiling: 1510ms
-	BeginReloadAssembly (191ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (18ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (397ms)
-		LoadAssemblies (291ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (561ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.26 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.2 MB). Loaded Objects now: 7403.
-Memory consumption went from 171.7 MB to 167.5 MB.
-Total: 8.875500 ms (FindLiveObjects: 0.757400 ms CreateObjectMapping: 0.772500 ms MarkObjects: 5.136400 ms  DeleteObjects: 2.207800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.667 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.855 seconds
-Domain Reload Profiling: 1524ms
-	BeginReloadAssembly (183ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (43ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (292ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (201ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (173ms)
-			ResolveRequiredComponents (15ms)
-	FinalizeReload (856ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (555ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (415ms)
-			ProcessInitializeOnLoadMethodAttributes (58ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.1 MB). Loaded Objects now: 7405.
-Memory consumption went from 171.7 MB to 167.6 MB.
-Total: 7.243600 ms (FindLiveObjects: 0.610600 ms CreateObjectMapping: 0.517100 ms MarkObjects: 4.344700 ms  DeleteObjects: 1.770300 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 405.665573 seconds.
-  path: Assets/Animations/Player/Player.controller
-  artifactKey: Guid(03b2a1bb759c754489b7dab6697b2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animations/Player/Player.controller using Guid(03b2a1bb759c754489b7dab6697b2811) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a453dcd46e2de7528ca9b0c6087cb4a0') in 0.0664718 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.676 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling: 1526ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (58ms)
-	RebuildCommonClasses (40ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (284ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (200ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (179ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (556ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (54ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.0 MB). Loaded Objects now: 7407.
-Memory consumption went from 171.7 MB to 167.7 MB.
-Total: 8.368300 ms (FindLiveObjects: 0.576000 ms CreateObjectMapping: 0.516900 ms MarkObjects: 4.740800 ms  DeleteObjects: 2.533700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.676 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.864 seconds
-Domain Reload Profiling: 1541ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (299ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (204ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (865ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (566ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
 Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.0 MB). Loaded Objects now: 7409.
-Memory consumption went from 171.7 MB to 167.7 MB.
-Total: 7.205500 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.455600 ms MarkObjects: 4.003700 ms  DeleteObjects: 2.201700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.667 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.859 seconds
-Domain Reload Profiling: 1526ms
-	BeginReloadAssembly (197ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (402ms)
-		LoadAssemblies (286ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (207ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (186ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (859ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (567ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (3ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (426ms)
-			ProcessInitializeOnLoadMethodAttributes (61ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.19 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.3 MB). Loaded Objects now: 7411.
-Memory consumption went from 171.7 MB to 167.4 MB.
-Total: 7.790200 ms (FindLiveObjects: 0.599200 ms CreateObjectMapping: 0.468100 ms MarkObjects: 4.603500 ms  DeleteObjects: 2.118200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.841 seconds
-Domain Reload Profiling: 1485ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (34ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (384ms)
-		LoadAssemblies (283ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (167ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (841ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (545ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.17 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.2 MB). Loaded Objects now: 7413.
-Memory consumption went from 171.7 MB to 167.5 MB.
-Total: 7.690100 ms (FindLiveObjects: 0.583100 ms CreateObjectMapping: 0.493100 ms MarkObjects: 4.503500 ms  DeleteObjects: 2.109200 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.665 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.824 seconds
-Domain Reload Profiling: 1490ms
-	BeginReloadAssembly (195ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (19ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (24ms)
-	LoadAllAssembliesAndSetupDomain (399ms)
-		LoadAssemblies (292ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (198ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (176ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (825ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (552ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (420ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.2 MB). Loaded Objects now: 7415.
-Memory consumption went from 171.7 MB to 167.5 MB.
-Total: 7.898000 ms (FindLiveObjects: 0.927500 ms CreateObjectMapping: 0.671200 ms MarkObjects: 4.336800 ms  DeleteObjects: 1.961500 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.658 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.22 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.811 seconds
-Domain Reload Profiling: 1471ms
-	BeginReloadAssembly (190ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (401ms)
-		LoadAssemblies (283ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (206ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (185ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (811ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (539ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (404ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.3 MB). Loaded Objects now: 7417.
-Memory consumption went from 171.7 MB to 167.5 MB.
-Total: 7.676600 ms (FindLiveObjects: 0.562000 ms CreateObjectMapping: 0.462800 ms MarkObjects: 4.736900 ms  DeleteObjects: 1.914100 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.665 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.814 seconds
-Domain Reload Profiling: 1480ms
-	BeginReloadAssembly (193ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (45ms)
-	RebuildCommonClasses (37ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (398ms)
-		LoadAssemblies (298ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (171ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (814ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (64ms)
-			ProcessInitializeOnLoadAttributes (411ms)
-			ProcessInitializeOnLoadMethodAttributes (51ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.1 MB). Loaded Objects now: 7419.
-Memory consumption went from 171.7 MB to 167.6 MB.
-Total: 7.316900 ms (FindLiveObjects: 0.638800 ms CreateObjectMapping: 0.598200 ms MarkObjects: 4.142200 ms  DeleteObjects: 1.936800 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.647 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
 - Finished resetting the current domain, in  0.832 seconds
-Domain Reload Profiling: 1479ms
-	BeginReloadAssembly (191ms)
+Domain Reload Profiling: 1496ms
+	BeginReloadAssembly (200ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (44ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (13ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (280ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (394ms)
+		LoadAssemblies (294ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (8ms)
+		AnalyzeDomain (189ms)
+			TypeCache.Refresh (6ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (176ms)
+			BuildScriptInfoCaches (168ms)
 			ResolveRequiredComponents (10ms)
 	FinalizeReload (832ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (558ms)
+		SetupLoadedEditorAssemblies (545ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (413ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (10ms)
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.1 MB). Loaded Objects now: 7421.
-Memory consumption went from 171.7 MB to 167.6 MB.
-Total: 6.809100 ms (FindLiveObjects: 0.539900 ms CreateObjectMapping: 0.450300 ms MarkObjects: 4.013700 ms  DeleteObjects: 1.804600 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.643 seconds
-Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
-UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
-
-Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.830 seconds
-Domain Reload Profiling: 1474ms
-	BeginReloadAssembly (185ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (12ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (388ms)
-		LoadAssemblies (278ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (194ms)
-			TypeCache.Refresh (6ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (174ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (830ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (553ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (5ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (417ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
-			AfterProcessingInitializeOnLoad (9ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.24 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6557 unused Assets / (4.3 MB). Loaded Objects now: 7423.
-Memory consumption went from 171.7 MB to 167.4 MB.
-Total: 8.383200 ms (FindLiveObjects: 0.735100 ms CreateObjectMapping: 0.772500 ms MarkObjects: 4.613400 ms  DeleteObjects: 2.261300 ms)
+Unloading 6557 unused Assets / (4.2 MB). Loaded Objects now: 7343.
+Memory consumption went from 167.2 MB to 163.0 MB.
+Total: 7.159100 ms (FindLiveObjects: 0.538700 ms CreateObjectMapping: 0.473300 ms MarkObjects: 4.080700 ms  DeleteObjects: 2.065800 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 499.718253 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(8c9cfa26abfee488c85f1582747f6a02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d12a05f9d8c831845e57c355a2f4b41') in 0.0487725 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+  Time since last request: 255.931458 seconds.
+  path: Assets/Kirill/Sprites/Floor-sprite-01-Sheet.png
+  artifactKey: Guid(4e0f835f9f23fbd49af8a0ec73290b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kirill/Sprites/Floor-sprite-01-Sheet.png using Guid(4e0f835f9f23fbd49af8a0ec73290b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22b9e78d01e3697504efe144fffc63c2') in 0.0899954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
