@@ -1,0 +1,91 @@
+[33mcommit 35d011aa07732b543d22ba43c68fe5f0c0ff763e[m[33m ([m[1;36mHEAD[m[33m)[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Tue Nov 26 16:41:29 2024 +0700
+
+    unnecessary
+
+[33mcommit dcec582c43ccc893a279a19dc9be86a695c8ed07[m[33m ([m[1;31morigin/Develop[m[33m, [m[1;32mDevelop[m[33m)[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sun Nov 24 16:29:37 2024 +0700
+
+    docs task2
+
+[33mcommit 905a39c92a6aba675357a3fe057ded8522a53cb5[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Merge: 9d88450 6bf8c0b
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sun Nov 24 15:51:54 2024 +0700
+
+    mergecommit
+
+[33mcommit 9d88450192576b542a1e5b1d361fffc2125619d3[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sun Nov 24 15:44:34 2024 +0700
+
+    v0.1
+
+[33mcommit 25b071517490214eb99e108eacf1778c0fcdda6d[m
+Merge: 406ad0e fc80ba4
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sun Nov 24 14:56:32 2024 +0700
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 406ad0e4e090a1c7a90474285ecf746e6a38113a[m[33m ([m[1;31morigin/feature/Character[m[33m, [m[1;32mfeature/Character[m[33m)[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sun Nov 24 14:49:42 2024 +0700
+
+    unneccessary commit
+
+[33mcommit 6bf8c0b95e190bb41f44d88265292b31b71056df[m[33m ([m[1;31morigin/m0d1r/bosses/first_boss[m[33m)[m
+Author: m0d1r <e.s.babinov@mail.ru>
+Date:   Sun Nov 24 14:41:14 2024 +0700
+
+    assets: boss arts + bullets
+
+[33mcommit fc80ba457876992f3727ebac37fccbecae7fc5a0[m
+Author: Kpek <kirillkrec412@gmail.com>
+Date:   Sat Nov 23 20:24:18 2024 +0700
+
+    Added sprites to the Kirill folder
+
+[33mcommit 6753d9376f79ef5974d989c4ddc232157043834c[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sat Nov 23 16:03:08 2024 +0700
+
+    feature Rotation
+
+[33mcommit 2123d4edcedb1efa4248716b8f10f8324fb9adbe[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sat Nov 23 15:50:59 2024 +0700
+
+    feature Animation
+
+[33mcommit b1e89aba4ce64000b6a1f3d17c60fcb1744737c0[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sat Nov 23 10:41:10 2024 +0700
+
+    fix Movement
+
+[33mcommit cfe8c75d5c1730bb6f351f78925d74c0925385dc[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sat Nov 23 08:24:26 2024 +0700
+
+    feature Moving
+
+[33mcommit ad9548171c5293f7b04f22fa197acd197f88b064[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Sat Nov 23 06:28:25 2024 +0700
+
+    gitignore added
+
+[33mcommit f5b1cdb4593e4ebe61cb4b79e7dea8bf0157a73c[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Wed Nov 20 00:24:07 2024 +0700
+
+    docs Tasks1
+
+[33mcommit e7876de11ec41dbe3644940bcb8f23c00e1f467c[m
+Author: postm1rage <pro100lights2@gmail.com>
+Date:   Tue Nov 19 22:37:21 2024 +0700
+
+    to transfer files(1)
