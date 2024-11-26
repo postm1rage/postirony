@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      first_boss_with_gun_anim_1_0: -4932928205899825961
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
