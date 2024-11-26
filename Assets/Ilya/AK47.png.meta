@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      AK47_0: 8271715202566429118
+      AK47_1: 6662145457819137948
+      AK47_2: -8300695246346262960
+      AK47_3: -4315731088754279856
+      AK47_4: -3446216578192474490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
