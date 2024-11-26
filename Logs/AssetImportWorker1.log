@@ -162,7 +162,7 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling: 1850ms
 	BeginReloadAssembly (383ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (6ms)
+		DisableScriptedObjects (16ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (29ms)
@@ -265,6 +265,14 @@ Memory consumption went from 168.3 MB to 164.2 MB.
 Total: 7.581400 ms (FindLiveObjects: 0.524300 ms CreateObjectMapping: 0.517800 ms MarkObjects: 4.610100 ms  DeleteObjects: 1.927400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 209.255869 seconds.
+  path: Assets/Scripts/minigun_Bullet.cs
+  artifactKey: Guid(0406f500fb5b16e41b0a4c5824088016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/minigun_Bullet.cs using Guid(0406f500fb5b16e41b0a4c5824088016) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '02fe3c7574a6adaf1de5861ab8e49b9e') in 0.0201131 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
