@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      oleg_staying_0: 1715853349402383989
+      oleg_staying_1: 5878578995863539082
+      oleg_staying_2: 1144770587398573644
+      oleg_staying_3: 6264541319421486297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
