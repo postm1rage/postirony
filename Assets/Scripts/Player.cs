@@ -1,23 +1,23 @@
-using System.Collections.Generic; 
-using UnityEngine; 
+using System.Collections;
+using UnityEngine;
 
 public class Player : MonoBehaviour { 
 
     public static Player Instance { get; private set; } 
 
     [SerializeField] private float movingSpeed = 10f; 
-    [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц
-
-    public float dashSpeed = 20f; // Убедитесь, что значение больше movingSpeed
+    public float dashSpeed = 20f; 
     public float dashLength = .5f; 
     public float dashCooldown = 1f; 
+
+    [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц
 
     private Rigidbody2D rb; 
     private Vector2 moveInput; 
     private bool isRunning = false; 
     private float dashCounter; 
     private float dashCoolCounter; 
-    
+
     void Awake() { 
         Instance = this; 
         rb = GetComponent<Rigidbody2D>(); 
@@ -30,11 +30,11 @@ public class Player : MonoBehaviour {
 
         if (Input.GetMouseButtonDown(1)) { 
             if (dashCoolCounter <= 0 && dashCounter <= 0) { 
-            dashCounter = dashLength; 
-            rb.linearVelocity = moveInput * dashSpeed; // Используем даш
-            PlayDashParticles(); // Воспроизводим частицы при даше
+                dashCounter = dashLength; 
+                rb.linearVelocity = moveInput * dashSpeed; // Используем даш
+                PlayDashParticles(); // Воспроизводим частицы при даше
             } 
-        }
+        } 
 
         if (dashCounter > 0) { 
             dashCounter -= Time.deltaTime; 
@@ -50,22 +50,31 @@ public class Player : MonoBehaviour {
         HandleMovement(); // Вызываем метод для обработки движения
     } 
 
-    private void PlayDashParticles() {
-    if (dashParticlesPrefab != null) {
-        Instantiate(dashParticlesPrefab, transform.position, Quaternion.identity);
-        }
-    }
-
     private void FixedUpdate() { 
         isRunning = moveInput.magnitude > 0.1f;
     } 
 
     private void HandleMovement() {
-        // Если игрок не в состоянии даша, перемещаем его с обычной скоростью
         if (dashCounter <= 0) {
-            // Перемещаем игрока с использованием rb.MovePosition
             rb.MovePosition(rb.position + moveInput * (movingSpeed * Time.fixedDeltaTime));
         }
+    }
+
+    private void PlayDashParticles() {
+        if (dashParticlesPrefab != null) {
+            GameObject particles = Instantiate(dashParticlesPrefab, transform.position, Quaternion.identity);
+            StartCoroutine(DestroyParticles(particles)); // Запускаем корутину для удаления частиц
+        }
+    }
+
+    private IEnumerator DestroyParticles(GameObject particles) {
+        var particleSystem = particles.GetComponent<ParticleSystem>();
+        if (particleSystem != null) {
+            // Ждем, пока система частиц завершит свою работу
+            yield return new WaitForSeconds(particleSystem.main.duration);
+        }
+                // Уничтожаем объект системы частиц
+        Destroy(particles);
     }
 
     public bool IsRunning() { 
