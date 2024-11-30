@@ -55,10 +55,28 @@ public class Player : MonoBehaviour {
     } 
 
     private void HandleMovement() {
-        if (dashCounter <= 0) {
-            rb.MovePosition(rb.position + moveInput * (movingSpeed * Time.fixedDeltaTime));
+    if (dashCounter <= 0) {
+        Vector2 targetPosition = rb.position + moveInput * (movingSpeed * Time.fixedDeltaTime);
+        
+        // Проверяем наличие препятствий
+        RaycastHit2D hit = Physics2D.Raycast(rb.position, moveInput, moveInput.magnitude * movingSpeed * Time.fixedDeltaTime, LayerMask.GetMask("Obstacles"));
+
+        if (hit.collider == null) {
+            // Если нет столкновений, перемещаем игрока
+            rb.MovePosition(targetPosition);
+        }
+    } else {
+        // Для даша можно добавить аналогичную проверку
+        Vector2 dashTargetPosition = rb.position + moveInput * (dashSpeed * Time.fixedDeltaTime);
+        RaycastHit2D dashHit = Physics2D.Raycast(rb.position, moveInput, moveInput.magnitude * dashSpeed * Time.fixedDeltaTime, LayerMask.GetMask("Obstacles"));
+
+        if (dashHit.collider == null) {
+            // Если нет столкновений, выполняем даш
+            rb.MovePosition(dashTargetPosition);
         }
     }
+}
+
 
     private void PlayDashParticles() {
         if (dashParticlesPrefab != null) {
