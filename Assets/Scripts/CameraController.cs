@@ -7,7 +7,7 @@ public class CameraController : MonoBehaviour
 
    Vector3 target, mousePos, refVel, shakeOffset;
     float cameraDist = 3.5f;
-    float smoothTime = 0.0f, zStart;
+    [SerializeField] float smoothTime = 0.0f, zStart;
     //shake
     float shakeMag,shakeTimeEnd;
 

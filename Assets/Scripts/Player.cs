@@ -1,47 +1,78 @@
-using System.Collections.Generic;
-using System.Collections;
-using UnityEngine;
+using System.Collections.Generic; 
+using UnityEngine; 
 
-public class Player : MonoBehaviour {
+public class Player : MonoBehaviour { 
 
-    public static Player Instance { get; private set; }
+    public static Player Instance { get; private set; } 
 
-    [SerializeField] private float movingSpeed = 10f;
+    [SerializeField] private float movingSpeed = 10f; 
+    [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц
 
-    private Rigidbody2D rb;
+    public float dashSpeed = 20f; // Убедитесь, что значение больше movingSpeed
+    public float dashLength = .5f; 
+    public float dashCooldown = 1f; 
 
-    private float minMovingSpeed = 0.1f;
-    private bool isRunning = false;
+    private Rigidbody2D rb; 
+    private Vector2 moveInput; 
+    private bool isRunning = false; 
+    private float dashCounter; 
+    private float dashCoolCounter; 
+    
+    void Awake() { 
+        Instance = this; 
+        rb = GetComponent<Rigidbody2D>(); 
+    } 
 
-    private void Awake() {
-        Instance = this;
-        rb = GetComponent<Rigidbody2D>();
+    void Update() { 
+        moveInput.x = Input.GetAxisRaw("Horizontal"); 
+        moveInput.y = Input.GetAxisRaw("Vertical"); 
+        moveInput.Normalize(); 
+
+        if (Input.GetMouseButtonDown(1)) { 
+            if (dashCoolCounter <= 0 && dashCounter <= 0) { 
+            dashCounter = dashLength; 
+            rb.linearVelocity = moveInput * dashSpeed; // Используем даш
+            PlayDashParticles(); // Воспроизводим частицы при даше
+            } 
+        }
+
+        if (dashCounter > 0) { 
+            dashCounter -= Time.deltaTime; 
+            if (dashCounter <= 0) { 
+                dashCoolCounter = dashCooldown; 
+            } 
+        } 
+
+        if (dashCoolCounter > 0) { 
+            dashCoolCounter -= Time.deltaTime; 
+        } 
+
+        HandleMovement(); // Вызываем метод для обработки движения
+    } 
+
+    private void PlayDashParticles() {
+    if (dashParticlesPrefab != null) {
+        Instantiate(dashParticlesPrefab, transform.position, Quaternion.identity);
+        }
     }
 
-
-    private void FixedUpdate() {
-        HandleMovement();
-    }
-
+    private void FixedUpdate() { 
+        isRunning = moveInput.magnitude > 0.1f;
+    } 
 
     private void HandleMovement() {
-        Vector2 inputVector = GameInput.Instance.GetMovementVector();
-        inputVector = inputVector.normalized;
-        rb.MovePosition(rb.position + inputVector *(movingSpeed * Time.fixedDeltaTime));
-
-        if (Mathf.Abs(inputVector.x) > minMovingSpeed || Mathf.Abs(inputVector.y) > minMovingSpeed) {
-            isRunning = true;
+        // Если игрок не в состоянии даша, перемещаем его с обычной скоростью
+        if (dashCounter <= 0) {
+            // Перемещаем игрока с использованием rb.MovePosition
+            rb.MovePosition(rb.position + moveInput * (movingSpeed * Time.fixedDeltaTime));
         }
-        else {
-            isRunning = false;
-        }
-}
-    public bool IsRunning() {
-        return isRunning;
-    }
-    public Vector3 GetPlayerScreenPosition() {
-        Vector3 playerScreenPosition = Camera.main.WorldToScreenPoint(transform.position);
-        return playerScreenPosition;
     }
 
+    public bool IsRunning() { 
+        return isRunning; 
+    } 
+
+    public Vector3 GetPlayerScreenPosition() { 
+        return Camera.main.WorldToScreenPoint(transform.position); 
+    } 
 }
