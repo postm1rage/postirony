@@ -267,3 +267,11 @@ Memory consumption went from 165.0 MB to 161.0 MB.
 Total: 16.577500 ms (FindLiveObjects: 0.939400 ms CreateObjectMapping: 1.495800 ms MarkObjects: 10.900900 ms  DeleteObjects: 3.239900 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4749.894311 seconds.
+  path: Assets/postirony 1.unity
+  artifactKey: Guid(00bff61118516b54fb5992543ef7e4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/postirony 1.unity using Guid(00bff61118516b54fb5992543ef7e4cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85c1663007266c3eeddd5fed4de1cb98') in 0.0065718 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 0
+
