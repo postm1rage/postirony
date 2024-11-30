@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2959775085075020619}
   - component: {fileID: -7543472605354037114}
-  - component: {fileID: -5342839024476364756}
+  - component: {fileID: -7551539255999809043}
   m_Layer: 0
   m_Name: dashpart
   m_TagString: Untagged
@@ -88,7 +88,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!111 &-5342839024476364756
+--- !u!111 &-7551539255999809043
 Animation:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
