@@ -1,10 +1,10 @@
 using System.Collections; 
 using UnityEngine; 
- 
+
 public class Player : MonoBehaviour {  
- 
+
     public static Player Instance { get; private set; }  
- 
+
     [SerializeField] private float movingSpeed = 10f;  
     public float dashSpeed = 20f;  
     public float dashLength = .5f;  
@@ -12,13 +12,16 @@ public class Player : MonoBehaviour {
 
     [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц 
     [SerializeField] private AudioClip dashSound; // Аудиоклип для даша
+    [SerializeField] private AudioClip walkSound; // Аудиоклип для звука шагов
     private AudioSource audioSource; // Компонент AudioSource
- 
+
     private Rigidbody2D rb;  
     private Vector2 moveInput;  
     private bool isRunning = false;  
     private float dashCounter;  
     private float dashCoolCounter;  
+    private float walkSoundTimer = 0.0f; // Таймер для звука шагов
+    public float walkSoundInterval = 0.5f; // Интервал воспроизведения звука шагов
 
     void Awake() {  
         Instance = this;  
@@ -30,7 +33,7 @@ public class Player : MonoBehaviour {
         moveInput.x = Input.GetAxisRaw("Horizontal");  
         moveInput.y = Input.GetAxisRaw("Vertical");  
         moveInput.Normalize();  
- 
+
         if (Input.GetMouseButtonDown(1)) {  
             if (dashCoolCounter <= 0 && dashCounter <= 0) {  
                 dashCounter = dashLength;  
@@ -52,6 +55,7 @@ public class Player : MonoBehaviour {
         }  
 
         HandleMovement(); // Вызываем метод для обработки движения 
+        HandleWalkingSound(); // Вызываем метод для обработки звука шагов
     }  
 
     private void FixedUpdate() {  
@@ -82,15 +86,33 @@ public class Player : MonoBehaviour {
     } 
 
     private void PlayDashParticles() { 
-        if (dashParticlesPrefab != null) { 
-            GameObject particles = Instantiate(dashParticlesPrefab, transform.position, Quaternion.identity);
-                        StartCoroutine(DestroyParticles(particles)); // Запускаем корутину для удаления частиц 
+        if (dashParticlesPrefab != null) {
+                        GameObject particles = Instantiate(dashParticlesPrefab, transform.position, Quaternion.identity); 
+            StartCoroutine(DestroyParticles(particles)); // Запускаем корутину для удаления частиц 
         } 
     } 
 
     private void PlayDashSound() {
         if (dashSound != null && audioSource != null) {
-            audioSource.PlayOneShot(dashSound); // Воспроизводим звук
+            audioSource.PlayOneShot(dashSound); // Воспроизводим звук даша
+        }
+    }
+
+    private void HandleWalkingSound() {
+        if (isRunning) {
+            walkSoundTimer += Time.deltaTime;
+            if (walkSoundTimer >= walkSoundInterval) {
+                PlayWalkSound();
+                walkSoundTimer = 0.0f;
+            }
+        } else {
+            walkSoundTimer = 0.0f; // Сбрасываем таймер, если не двигаемся
+        }
+    }
+
+    private void PlayWalkSound() {
+        if (walkSound != null && audioSource != null) {
+            audioSource.PlayOneShot(walkSound); // Воспроизводим звук шагов
         }
     }
 
