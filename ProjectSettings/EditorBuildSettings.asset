@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Menu.unity
     guid: 8b89526168c43b3448a5df4fc974c3d3
   - enabled: 1
+    path: Assets/Scenes/plot.unity
+    guid: 556fd54be7e4e2742aa386adf1dc5577
+  - enabled: 1
     path: Assets/Scenes/postirony.unity
     guid: 2bcda55befb81e748bd2ce282ecd2988
   m_configObjects:
