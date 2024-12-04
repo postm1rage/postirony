@@ -8691,3 +8691,29 @@ Memory consumption went from 174.0 MB to 169.0 MB.
 Total: 10.516800 ms (FindLiveObjects: 0.717300 ms CreateObjectMapping: 0.664400 ms MarkObjects: 5.599000 ms  DeleteObjects: 3.535100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.55 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6552 unused Assets / (4.4 MB). Loaded Objects now: 7656.
+Memory consumption went from 174.1 MB to 169.7 MB.
+Total: 13.896400 ms (FindLiveObjects: 0.948500 ms CreateObjectMapping: 0.830700 ms MarkObjects: 8.018300 ms  DeleteObjects: 4.096600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 4440.918337 seconds.
+  path: Assets/Animations/Player/weapon/player_bullet.png
+  artifactKey: Guid(2e155a15d77dbf547b151fb7fa14b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/weapon/player_bullet.png using Guid(2e155a15d77dbf547b151fb7fa14b0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9bd5acca32664dd45a71fa2fa5b2d5d2') in 0.4899068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Animations/Player/weapon/reload-ak-47-made-with-Voicemod.mp3
+  artifactKey: Guid(5a2b4d71cd243f446bd75a4614c406e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/weapon/reload-ak-47-made-with-Voicemod.mp3 using Guid(5a2b4d71cd243f446bd75a4614c406e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e1d3ea19d05fc1eafb6ad3366df63b') in 0.0678957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+

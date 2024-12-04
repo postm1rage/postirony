@@ -8903,3 +8903,45 @@ Memory consumption went from 175.5 MB to 171.6 MB.
 Total: 15.852100 ms (FindLiveObjects: 1.067900 ms CreateObjectMapping: 1.355100 ms MarkObjects: 9.041200 ms  DeleteObjects: 4.385400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6552 unused Assets / (4.6 MB). Loaded Objects now: 7680.
+Memory consumption went from 175.6 MB to 171.1 MB.
+Total: 12.095500 ms (FindLiveObjects: 0.799100 ms CreateObjectMapping: 0.843400 ms MarkObjects: 7.999400 ms  DeleteObjects: 2.452200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 806.239509 seconds.
+  path: Assets/Animations/Player/weapon/77340__tcpp__machinegun-ish.wav
+  artifactKey: Guid(b0019cab4da64204d9a50b39c0ef1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/weapon/77340__tcpp__machinegun-ish.wav using Guid(b0019cab4da64204d9a50b39c0ef1e2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a0d2449ef390e5a1ef824b606e68467') in 0.098841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Animations/Player/weapon/playerbullet.prefab
+  artifactKey: Guid(fab6d92f5184d1c44a9e9421ba6b9276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Player/weapon/playerbullet.prefab using Guid(fab6d92f5184d1c44a9e9421ba6b9276) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '45eba6d50cf6046e5f9cda1279ec8c42') in 0.5480696 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.091164 seconds.
+  path: Assets/Scenes/smth.unity
+  artifactKey: Guid(acab9425be85d6e45a7b8ace80ec0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/smth.unity using Guid(acab9425be85d6e45a7b8ace80ec0ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fb086759bbf2b6b0f316390828de93b0') in 0.0006969 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.280918 seconds.
+  path: Assets/Scenes/testscene.unity
+  artifactKey: Guid(b1a829d376716ce4b94c7985f428d636) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/testscene.unity using Guid(b1a829d376716ce4b94c7985f428d636) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '909ca709e14d798b5afdf2c4219e4545') in 0.0006021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
