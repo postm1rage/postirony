@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 1e1562667d72a064d8f39a97827ba4e7
+guid: fcf164e42c6e5c648b7c030bf71002b1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7378380084101221839
-    second: oleg_walking_0
-  - first:
-      213: 2107475449911938896
-    second: oleg_walking_1
+      213: -5004643638299570384
+    second: backbutton_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,52 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oleg_walking_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 17
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1327455e76aba9990800000000000000
-      internalID: -7378380084101221839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oleg_walking_1
+      name: backbutton_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 16
-        height: 16
+        width: 685
+        height: 207
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -153,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05f8bdc71c14f3d10800000000000000
-      internalID: 2107475449911938896
+      spriteID: 03f4cbf602feb8ab0800000000000000
+      internalID: -5004643638299570384
       vertices: []
       indices: 
       edges: []
@@ -173,8 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oleg_walking_0: -7378380084101221839
-      oleg_walking_1: 2107475449911938896
+      backbutton_0: -5004643638299570384
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

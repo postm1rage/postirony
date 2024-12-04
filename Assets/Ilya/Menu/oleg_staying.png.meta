@@ -1,13 +1,19 @@
 fileFormatVersion: 2
-guid: 1e1562667d72a064d8f39a97827ba4e7
+guid: b6f35faeffcacf44bb59432e41f688e8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7378380084101221839
-    second: oleg_walking_0
+      213: 1715853349402383989
+    second: oleg_staying_0
   - first:
-      213: 2107475449911938896
-    second: oleg_walking_1
+      213: 5878578995863539082
+    second: oleg_staying_1
+  - first:
+      213: 1144770587398573644
+    second: oleg_staying_2
+  - first:
+      213: 6264541319421486297
+    second: oleg_staying_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +46,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +60,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +81,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -116,29 +122,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oleg_walking_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 17
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1327455e76aba9990800000000000000
-      internalID: -7378380084101221839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oleg_walking_1
+      name: oleg_staying_0
       rect:
         serializedVersion: 2
         x: 0
@@ -153,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05f8bdc71c14f3d10800000000000000
-      internalID: 2107475449911938896
+      spriteID: 5761bc1c78fefc710800000000000000
+      internalID: 1715853349402383989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oleg_staying_1
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8dc4806378e49150800000000000000
+      internalID: 5878578995863539082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oleg_staying_2
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 0
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4e0533b8ca03ef00800000000000000
+      internalID: 1144770587398573644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: oleg_staying_3
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 0
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4efd8932f10f650800000000000000
+      internalID: 6264541319421486297
       vertices: []
       indices: 
       edges: []
@@ -173,8 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oleg_walking_0: -7378380084101221839
-      oleg_walking_1: 2107475449911938896
+      oleg_staying_0: 1715853349402383989
+      oleg_staying_1: 5878578995863539082
+      oleg_staying_2: 1144770587398573644
+      oleg_staying_3: 6264541319421486297
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

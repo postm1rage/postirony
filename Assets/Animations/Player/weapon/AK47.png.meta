@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 1e1562667d72a064d8f39a97827ba4e7
+guid: bf10584fe5bb8e14393384e002b8ef86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7378380084101221839
-    second: oleg_walking_0
+      213: 8271715202566429118
+    second: AK47_0
   - first:
-      213: 2107475449911938896
-    second: oleg_walking_1
+      213: 6662145457819137948
+    second: AK47_1
+  - first:
+      213: -8300695246346262960
+    second: AK47_2
+  - first:
+      213: -4315731088754279856
+    second: AK47_3
+  - first:
+      213: -3446216578192474490
+    second: AK47_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -54,7 +63,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -75,9 +84,9 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 4096
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -116,34 +125,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: oleg_walking_0
+      name: AK47_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 17
-        width: 16
-        height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1327455e76aba9990800000000000000
-      internalID: -7378380084101221839
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: oleg_walking_1
-      rect:
-        serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 16
+        width: 47
         height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -153,8 +140,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 05f8bdc71c14f3d10800000000000000
-      internalID: 2107475449911938896
+      spriteID: eb99b2cb6290bc270800000000000000
+      internalID: 8271715202566429118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 61
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97ba4f0ff1b47c50800000000000000
+      internalID: 6662145457819137948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_2
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 0
+        width: 57
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 056e1c407a10ecc80800000000000000
+      internalID: -8300695246346262960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 56
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05af0b4c0717b14c0800000000000000
+      internalID: -4315731088754279856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AK47_4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 0
+        width: 53
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68e76cde7449c20d0800000000000000
+      internalID: -3446216578192474490
       vertices: []
       indices: 
       edges: []
@@ -173,8 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      oleg_walking_0: -7378380084101221839
-      oleg_walking_1: 2107475449911938896
+      AK47_0: 8271715202566429118
+      AK47_1: 6662145457819137948
+      AK47_2: -8300695246346262960
+      AK47_3: -4315731088754279856
+      AK47_4: -3446216578192474490
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
