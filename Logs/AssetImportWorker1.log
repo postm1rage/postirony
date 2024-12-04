@@ -8717,3 +8717,127 @@ Received Import Request.
 Start importing Assets/Animations/Player/weapon/reload-ak-47-made-with-Voicemod.mp3 using Guid(5a2b4d71cd243f446bd75a4614c406e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00e1d3ea19d05fc1eafb6ad3366df63b') in 0.0678957 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6552 unused Assets / (4.1 MB). Loaded Objects now: 7663.
+Memory consumption went from 174.5 MB to 170.4 MB.
+Total: 10.810400 ms (FindLiveObjects: 0.672800 ms CreateObjectMapping: 0.595700 ms MarkObjects: 6.861000 ms  DeleteObjects: 2.679300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 296.352970 seconds.
+  path: Assets/Ilya/authorsbutton.png
+  artifactKey: Guid(882d92b30e2e96444ba82903f2c1629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/authorsbutton.png using Guid(882d92b30e2e96444ba82903f2c1629f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e830fa5548a627f1b95eefb9ad43002') in 0.0364543 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Ilya/playbutton.png
+  artifactKey: Guid(2212503b8c05e30489ecf6e627850aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/playbutton.png using Guid(2212503b8c05e30489ecf6e627850aba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '329eba6a1ac0d709eb07b1f54c45470c') in 0.0236645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Ilya/authorsmenu.png
+  artifactKey: Guid(c72cd1bc7406e54428c03290aa25132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/authorsmenu.png using Guid(c72cd1bc7406e54428c03290aa25132d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c8fcb3a747ef9528e375fffbe1a39a6') in 0.0242159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Ilya/quitbutton.png
+  artifactKey: Guid(ec8bdd6bc1ea55f4287a83585b4b6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/quitbutton.png using Guid(ec8bdd6bc1ea55f4287a83585b4b6ced) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8717acb743a51745faa1cd2edb4dbda1') in 0.0227777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Ilya/Crosshair.png
+  artifactKey: Guid(a56451776faad424bb2ab99ddeb19efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/Crosshair.png using Guid(a56451776faad424bb2ab99ddeb19efa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6204c4e2abe3f2547a1b582f983ddcdd') in 0.0190035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Ilya/oobb.png
+  artifactKey: Guid(fcccb7dd812dfbd45b3b456fd93fb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ilya/oobb.png using Guid(fcccb7dd812dfbd45b3b456fd93fb015) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daaa7d59b57eaae10362c2238380cf5b') in 0.0182411 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.024 seconds
+Multiple scripted importers are targeting the extension 'ase' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Multiple scripted importers are targeting the extension 'aseprite' and have all been rejected: UnityEditor.U2D.Aseprite.AsepriteImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll), AsepriteImporter.AseFileImporter (assembly: C:\Users\pro10\postirony\Library\ScriptAssemblies\AsepriteImporter.Editor.dll) 
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.AssetImporters.ScriptedImporter:RegisterScriptedImporters ()
+
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.218 seconds
+Domain Reload Profiling: 2244ms
+	BeginReloadAssembly (311ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (619ms)
+		LoadAssemblies (450ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (295ms)
+			TypeCache.Refresh (14ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (260ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1219ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (791ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (88ms)
+			ProcessInitializeOnLoadAttributes (621ms)
+			ProcessInitializeOnLoadMethodAttributes (69ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 1.85 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6563 unused Assets / (4.0 MB). Loaded Objects now: 7675.
+Memory consumption went from 174.0 MB to 170.0 MB.
+Total: 14.930900 ms (FindLiveObjects: 1.227500 ms CreateObjectMapping: 1.352100 ms MarkObjects: 8.511700 ms  DeleteObjects: 3.838100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
