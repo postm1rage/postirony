@@ -7,7 +7,7 @@ public class Player : MonoBehaviour {
 
     [SerializeField] private float movingSpeed = 10f;   
     public float dashSpeed = 20f;   
-    public float dashLength = .5f;   
+    public float dashLength = .5f;
     public float dashCooldown = 1f;   
 
     [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц  
