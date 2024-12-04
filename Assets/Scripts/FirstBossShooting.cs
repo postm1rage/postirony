@@ -6,50 +6,50 @@ public class Boss : MonoBehaviour
     public GameObject minigun_Bullet;
     public float fireRate = 10f;
     public float projectileSpeed = 10f;
-    public float reloadTime = 2f; // Время перезарядки
+    public float reloadTime = 2f; // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private int shots = 0;
     private float nextFireTime;
     private bool isReloading = false;
     public float spread = 0.1f;
     private float reloadStartTime;
-    public float shakeAmount = 0.1f; // Сила тряски
-    public float shakeDuration = 0.1f; // Длительность тряски
+    public float shakeAmount = 0.1f; // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    public float shakeDuration = 0.1f; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
-    public AudioSource MinigunShootSound; // Ссылка на AudioSource
+    public AudioSource MinigunShootSound; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ AudioSource
     public Transform minigun;
     private Vector3 originalPosition;
-    //public int damage = 10; // Урон, который снаряд наносит
+    public int damage = 10; // пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 
 
     void Start()
     {
-        // Сохраняем исходную позицию оружия
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         originalPosition = minigun.localPosition;
     }
-    /*
+    
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // Проверяем, столкнулся ли снаряд с боссом
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         if (collision.CompareTag("Player"))
         {
-            Player player = collision.GetComponent<Player>(); // Получаем компонент Player
+            Player player = collision.GetComponent<Player>(); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Player
             if (player != null)
             {
-                player.TakeDamage(damage); // Наносим урон игроку
+                player.TakeDamage(damage); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
             }
-            Destroy(gameObject); // Удаляем снаряд после столкновения
+            Destroy(gameObject); // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         }
     }
-    */
+    
     void Update()
     {
         if (isReloading)
         {
             if (Time.time >= reloadStartTime + reloadTime)
             {
-                isReloading = false; // Завершаем перезарядку
+                isReloading = false; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             }
-            return; // Пропускаем остальной код пока идет перезарядка
+            return; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         }
         if (Time.time > nextFireTime)
         {
@@ -91,20 +91,20 @@ public class Boss : MonoBehaviour
 
         while (elapsed < shakeDuration)
         {
-            // Вычисляем случайное смещение
+            // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
             Vector3 randomOffset = new Vector3(Random.Range(-shakeAmount, shakeAmount), Random.Range(-shakeAmount, shakeAmount), 0);
-            minigun.localPosition = originalPosition + randomOffset; // Изменяем позицию оружия
+            minigun.localPosition = originalPosition + randomOffset; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
 
             elapsed += Time.deltaTime;
-            yield return null; // Ждем следующий кадр
+            yield return null; // пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         }
 
-        minigun.localPosition = originalPosition; // Возвращаем оружие в исходное положение
+        minigun.localPosition = originalPosition; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     }
     void StartReload()
     {
-        isReloading = true; // Устанавливаем флаг перезарядки
-        reloadStartTime = Time.time; // Сохраняем время начала перезарядки
-        shots = 0; // Сброс счетчика выстрелов
+        isReloading = true; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        reloadStartTime = Time.time; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+        shots = 0; // пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     }
 }

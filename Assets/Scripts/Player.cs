@@ -7,8 +7,9 @@ public class Player : MonoBehaviour {
 
     [SerializeField] private float movingSpeed = 10f;   
     public float dashSpeed = 20f;   
-    public float dashLength = .5f;
-    public float dashCooldown = 1f;   
+    public float dashLength = .5f;   
+    public float dashCooldown = 1f;
+    
 
     [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц  
     [SerializeField] private AudioClip dashSound; // Аудиоклип для даша 
@@ -22,8 +23,14 @@ public class Player : MonoBehaviour {
     private float dashCounter;   
     private float dashCoolCounter;   
     private float walkSoundTimer = 0.0f; // Таймер для звука шагов 
-    public float walkSoundInterval = 0.5f; // Интервал воспроизведения звука шагов 
+    public float walkSoundInterval = 0.5f; // Интервал воспроизведения звука шагов
+    int currentHealth;
+    public int maxHealth = 100;
 
+    void Start()
+    {
+        currentHealth = maxHealth;
+    }
     void Awake() {   
         Instance = this;   
         rb = GetComponent<Rigidbody2D>();   
@@ -113,10 +120,23 @@ public class Player : MonoBehaviour {
         }
     }
 
+        void Die()
+    {
+        Destroy(gameObject);
+    }
     private void PlayWalkSound() {
         if (walkSound != null && audioSource != null) {
             audioSource.PlayOneShot(walkSound); // Воспроизводим звук шагов
         }
+    }
+    public void TakeDamage(int damage)
+    {
+    currentHealth -= damage; // Уменьшаем здоровье на величину урона
+
+    if (currentHealth <= 0)
+    {
+        Die();
+    }
     }
 
     private IEnumerator DestroyParticles(GameObject particles) { 
