@@ -1,75 +1,69 @@
-using UnityEngine;
+using UnityEngine;  
 
-public class BossBehavior : MonoBehaviour
-{
-    //public Image Healthbar;
-    public Transform player; // Ссылка на объект игрока
-    public float minDistance = 5f; // Минимальное расстояние до игрока
-    public float maxDistance = 10f; // Максимальное расстояние до игрока
-    public float moveSpeed = 1.5f; // Скорость движения босса
-    //public int maxHealth = 1000; // Максимальное здоровье
-    //private int currentHealth; // Текущее здоровье
-    private SpriteRenderer spriteRenderer;
-    
-    private void Awake()
-    {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-    }
-    /*
-    void Start()
-    {
-        currentHealth = maxHealth; // Устанавливаем текущее здоровье на максимальное значение
-        UpdateHealthBar();
-    }
-    
-    public void TakeDamage(int damage)
-    {
-        currentHealth -= damage; // Уменьшаем здоровье на величину урона
+public class BossBehavior : MonoBehaviour  
+{  
+    public Transform player; // РЎСЃС‹Р»РєР° РЅР° РёРіСЂРѕРєР°  
+    public float minDistance = 5f; // РњРёРЅРёРјР°Р»СЊРЅР°СЏ РґРёСЃС‚Р°РЅС†РёСЏ РґРѕ РёРіСЂРѕРєР°  
+    public float maxDistance = 10f; // РњР°РєСЃРёРјР°Р»СЊРЅР°СЏ РґРёСЃС‚Р°РЅС†РёСЏ РґРѕ РёРіСЂРѕРєР°  
+    public float moveSpeed = 1.5f; // РЎРєРѕСЂРѕСЃС‚СЊ РїРµСЂРµРґРІРёР¶РµРЅРёСЏ  
+    public int maxHealth = 1000; // РњР°РєСЃРёРјР°Р»СЊРЅРѕРµ Р·РґРѕСЂРѕРІСЊРµ  
+    private int currentHealth; // РўРµРєСѓС‰РµРµ Р·РґРѕСЂРѕРІСЊРµ  
+    private SpriteRenderer spriteRenderer;  
 
-        if (currentHealth <= 0)
-        {
-            Die();
-        }
-        UpdateHealthBar();
-    }
-    private void UpdateHealthBar()
-    {
-        healthBar.fillAmount = currentHealth / maxHealth; // Обновляем наполненность полосы
-    }
-    void Die()
-    {
-        Destroy(gameObject);
-    }
-    */
-    void Update()
-    {
-        // Вычисляем вектор направления к игроку
-        Vector2 directionToPlayer = (player.position - transform.position).normalized;
+    private void Awake()  
+    {  
+        spriteRenderer = GetComponent<SpriteRenderer>();  
+    }  
 
-        // Вычисляем текущее расстояние до игрока
-        float currentDistance = Vector2.Distance(transform.position, player.position);
+    void Start()  
+    {  
+        currentHealth = maxHealth; // РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ С‚РµРєСѓС‰РµРіРѕ Р·РґРѕСЂРѕРІСЊСЏ  
+        UpdateHealthBar();  
+    }  
 
-        // Если текущие расстояние меньше минимального
-        if (currentDistance < minDistance)
-        {
-            // Двигаемся прочь от игрока
-            transform.position -= (Vector3)(directionToPlayer * moveSpeed * Time.deltaTime);
-        }
-        // Если текущее расстояние больше максимального
-        else if (currentDistance > maxDistance)
-        {
-            // Двигаемся ближе к игроку
-            transform.position += (Vector3)(directionToPlayer * moveSpeed * Time.deltaTime);
-        }
-        if (transform.position.x < player.position.x)
-        {
-            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-        }
-        else
-        {
-            transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-        }
+    public void TakeDamage(int damage)  
+    {  
+        currentHealth -= damage; // РЈРјРµРЅСЊС€Р°РµРј С‚РµРєСѓС‰РµРµ Р·РґРѕСЂРѕРІСЊРµ  
 
-    }
+        if (currentHealth <= 0)  
+        {  
+            Die();  
+        }  
+        UpdateHealthBar();  
+    }  
 
+    private void UpdateHealthBar()  
+    {  
+        // РћР±РЅРѕРІР»РµРЅРёРµ РёРЅРґРёРєР°С‚РѕСЂР° Р·РґРѕСЂРѕРІСЊСЏ (РµСЃР»Рё РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ)
+    }  
+
+    void Die()  
+    {  
+        Destroy(gameObject);  
+    }  
+
+    void Update()  
+    {  
+        Vector2 directionToPlayer = (player.position - transform.position).normalized;  
+
+        float currentDistance = Vector2.Distance(transform.position, player.position);  
+
+        if (currentDistance < minDistance)  
+        {  
+            transform.position -= (Vector3)(directionToPlayer * moveSpeed * Time.deltaTime);  
+        }  
+        else if (currentDistance > maxDistance)  
+        {  
+            transform.position += (Vector3)(directionToPlayer * moveSpeed * Time.deltaTime);  
+        }  
+
+        if (transform.position.x < player.position.x)  
+        {  
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);  
+        }  
+        else  
+        {  
+            transform.rotation = Quaternion.Euler(0f, 0f, 0f);  
+        }  
+    }  
 }
