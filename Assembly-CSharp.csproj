@@ -71,12 +71,10 @@
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerVisual.cs" />
     <Compile Include="Assets\Scripts\GameInput.cs" />
-    <Compile Include="Assets\Scripts\FirstBossBehavior.cs" />
-    <Compile Include="Assets\Ilya\plot twist\MoveAndAnimate.cs" />
-    <Compile Include="Assets\Scripts\MainMenu.cs" />
-    <Compile Include="Assets\Animations\Player\weapon\Weapon.cs" />
+    <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
-    <Compile Include="Assets\Ilya\plot twist\AnimationController.cs" />
+    <Compile Include="Assets\Scripts\minigun_Bullet.cs" />
+    <Compile Include="Assets\Scripts\Teleport1.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
   </ItemGroup>
   <ItemGroup>
