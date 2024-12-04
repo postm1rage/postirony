@@ -19,7 +19,7 @@ public class BossBehavior : MonoBehaviour
     {  
         currentHealth = maxHealth; // Инициализация текущего здоровья  
         UpdateHealthBar();  
-    }  
+    }
 
     public void TakeDamage(int damage)  
     {  

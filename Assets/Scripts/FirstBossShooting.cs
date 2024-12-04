@@ -26,7 +26,7 @@ public class Boss : MonoBehaviour
         // ��������� �������� ������� ������
         originalPosition = minigun.localPosition;
     }
-    /*
+    
     void OnTriggerEnter2D(Collider2D collision)
     {
         // ���������, ���������� �� ������ � ������
@@ -40,7 +40,7 @@ public class Boss : MonoBehaviour
             Destroy(gameObject); // ������� ������ ����� ������������
         }
     }
-    */
+    
     void Update()
     {
         if (isReloading)
