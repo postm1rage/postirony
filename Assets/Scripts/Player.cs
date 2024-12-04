@@ -5,10 +5,10 @@ public class Player : MonoBehaviour {
 
     public static Player Instance { get; private set; }   
 
-    [SerializeField] private float movingSpeed = 10f;   
-    public float dashSpeed = 20f;   
-    public float dashLength = .5f;   
-    public float dashCooldown = 1f;   
+    [SerializeField] private float movingSpeed = 10f;
+    public float dashSpeed = 20f;
+    public float dashLength = .5f;
+    public float dashCooldown = 1f;
 
     [SerializeField] private GameObject dashParticlesPrefab; // Префаб системы частиц  
     [SerializeField] private AudioClip dashSound; // Аудиоклип для даша 
