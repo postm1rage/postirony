@@ -13,9 +13,9 @@ GameObject:
   - component: {fileID: 4698337856616095036}
   - component: {fileID: 1725903194083725143}
   - component: {fileID: -5450176792307253901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: minigun_Bullet
-  m_TagString: Untagged
+  m_TagString: Bullet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -20,19 +20,25 @@ public class Bullet : MonoBehaviour
         }
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
-{
-    // Check for collision with the enemy
-    if (collision.gameObject.CompareTag("Boss"))
+    void Start()
     {
-        // Теперь используем BossBehavior
-        BossBehavior bossBehavior = collision.gameObject.GetComponent<BossBehavior>();
-        if (bossBehavior != null)
-        {
-            // Вызываем метод TakeDamage у BossBehavior
-            bossBehavior.TakeDamage(damage);
-        }
-        Destroy(gameObject); // Destroy the bullet
+        // Удалить пулю через 2 секунды
+        Destroy(gameObject, 2f);
     }
-}
+
+    void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Check for collision with the enemy
+        if (collision.gameObject.CompareTag("Boss"))
+        {
+            // Используем BossBehavior
+            BossBehavior bossBehavior = collision.gameObject.GetComponent<BossBehavior>();
+            if (bossBehavior != null)
+            {
+                // Вызываем метод TakeDamage у BossBehavior
+                bossBehavior.TakeDamage(damage);
+            }
+            Destroy(gameObject); // Destroy the bullet
+        }
+    }
 }
