@@ -6,38 +6,38 @@ public class Boss : MonoBehaviour
     public GameObject minigun_Bullet;
     public float fireRate = 10f;
     public float projectileSpeed = 10f;
-    public float reloadTime = 2f; // ����� �����������
+    public float reloadTime = 2f; //                  
     private int shots = 0;
     private float nextFireTime;
     private bool isReloading = false;
     public float spread = 0.1f;
     private float reloadStartTime;
-    public float shakeAmount = 0.1f; // ���� ������
-    public float shakeDuration = 0.1f; // ������������ ������
+    public float shakeAmount = 0.1f; //            
+    public float shakeDuration = 0.1f; //                    
 
-    public AudioSource MinigunShootSound; // ������ �� AudioSource
+    public AudioSource MinigunShootSound; //           AudioSource
     public Transform minigun;
     private Vector3 originalPosition;
-    public int damage = 10; // ����, ������� ������ �������
+    public int damage = 10; //     ,                       
 
 
     void Start()
     {
-        // ��������� �������� ������� ������
+        //                                  
         originalPosition = minigun.localPosition;
     }
     
     void OnTriggerEnter2D(Collider2D collision)
     {
-        // ���������, ���������� �� ������ � ������
+        //          ,                              
         if (collision.CompareTag("Player"))
         {
-            Player player = collision.GetComponent<Player>(); // �������� ��������� Player
+            Player player = collision.GetComponent<Player>(); //                    Player
             if (player != null)
             {
-                player.TakeDamage(damage); // ������� ���� ������
+                player.TakeDamage(damage); //                    
             }
-            Destroy(gameObject); // ������� ������ ����� ������������
+            Destroy(gameObject); //                                  
         }
     }
     
@@ -47,9 +47,9 @@ public class Boss : MonoBehaviour
         {
             if (Time.time >= reloadStartTime + reloadTime)
             {
-                isReloading = false; // ��������� �����������
+                isReloading = false; //                      
             }
-            return; // ���������� ��������� ��� ���� ���� �����������
+            return; //                                               
         }
         if (Time.time > nextFireTime)
         {
@@ -91,20 +91,20 @@ public class Boss : MonoBehaviour
 
         while (elapsed < shakeDuration)
         {
-            // ��������� ��������� ��������
+            //                             
             Vector3 randomOffset = new Vector3(Random.Range(-shakeAmount, shakeAmount), Random.Range(-shakeAmount, shakeAmount), 0);
-            minigun.localPosition = originalPosition + randomOffset; // �������� ������� ������
+            minigun.localPosition = originalPosition + randomOffset; //                        
 
             elapsed += Time.deltaTime;
-            yield return null; // ���� ��������� ����
+            yield return null; //                    
         }
 
-        minigun.localPosition = originalPosition; // ���������� ������ � �������� ���������
+        minigun.localPosition = originalPosition; //                                       
     }
     void StartReload()
     {
-        isReloading = true; // ������������� ���� �����������
-        reloadStartTime = Time.time; // ��������� ����� ������ �����������
-        shots = 0; // ����� �������� ���������
+        isReloading = true; //                               
+        reloadStartTime = Time.time; //                                   
+        shots = 0; //                         
     }
 }

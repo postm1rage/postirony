@@ -15,8 +15,8 @@ EditorBuildSettings:
     path: Assets/Scenes/plot.unity
     guid: 556fd54be7e4e2742aa386adf1dc5577
   - enabled: 1
-    path: Assets/Scenes/smth.unity
-    guid: acab9425be85d6e45a7b8ace80ec0ddd
+    path: Assets/Scenes/postirony 1.unity
+    guid: 9eeaac6ea527626429f256b9f5cd9c56
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 115728cb73b270243b13efce0cc5e632, type: 3}
   m_UseUCBPForAssetBundles: 0
