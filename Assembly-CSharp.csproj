@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\FirstBossBehavior.cs" />
     <Compile Include="Assets\Ilya\plot twist\MoveAndAnimate.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
+    <Compile Include="Assets\Scripts\PlayerDashBar.cs" />
     <Compile Include="Assets\Animations\Player\weapon\Weapon.cs" />
     <Compile Include="Assets\PlayerInputActions.cs" />
     <Compile Include="Assets\Scripts\Teleport1.cs" />

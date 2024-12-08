@@ -15,7 +15,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private SpriteRenderer weaponSprite; 
     [SerializeField] private AudioSource audioSource; // Ссылка на AudioSource
 
-    private int currentAmmo; 
+    public int currentAmmo; 
     private bool isReloading = false; 
     private float nextFireTime = 0f; 
 

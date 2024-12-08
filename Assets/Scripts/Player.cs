@@ -20,9 +20,9 @@ public class Player : MonoBehaviour {
     private Rigidbody2D rb;   
     private Vector2 moveInput;   
     private bool isRunning = false;   
-    private bool isDashing = false; // Переменная для отслеживания состояния даша
+    public bool isDashing = false; // Переменная для отслеживания состояния даша
     private float dashCounter;   
-    private float dashCoolCounter;   
+    public float dashCoolCounter;   
     private float walkSoundTimer = 0.0f; // Таймер для звука шагов 
     public float walkSoundInterval = 0.5f; // Интервал воспроизведения звука шагов
     public int currentHealth;
@@ -38,40 +38,55 @@ public class Player : MonoBehaviour {
         audioSource = GetComponent<AudioSource>(); // Получаем компонент AudioSource 
     }   
 
-    void Update() {   
-        moveInput.x = Input.GetAxisRaw("Horizontal");   
-        moveInput.y = Input.GetAxisRaw("Vertical");   
-        moveInput.Normalize();   
+    void Update() {
+    moveInput.x = Input.GetAxisRaw("Horizontal");
+    moveInput.y = Input.GetAxisRaw("Vertical");
+    moveInput.Normalize();
 
-        if (Input.GetMouseButtonDown(1)) {   
-            if (dashCoolCounter <= 0 && dashCounter <= 0) {   
-                isDashing = true; // Устанавливаем состояние даша
-                dashCounter = dashLength;   
-                rb.linearVelocity = moveInput * dashSpeed; // Используем даш  
-                PlayDashParticles(); // Воспроизводим частицы при даше 
-                PlayDashSound(); // Воспроизводим звук даша 
-            }   
-        }   
+    if (Input.GetMouseButtonDown(1)) {
+        if (dashCoolCounter <= 0 && dashCounter <= 0) {
+            isDashing = true; // Устанавливаем состояние даша
+            dashCounter = dashLength;   
+            rb.linearVelocity = moveInput * dashSpeed; // Используем даш
+            PlayDashParticles(); // Воспроизводим частицы при даше 
+            PlayDashSound(); // Воспроизводим звук даша 
 
-        if (dashCounter > 0) {   
-            dashCounter -= Time.deltaTime;   
-            if (dashCounter <= 0) {   
-                dashCoolCounter = dashCooldown;   
-                isDashing = false; // Сбрасываем состояние даша
-            }   
-        }   
+            // Оповещение DashBar о начале даша
+            DashBar dashBar = Object.FindFirstObjectByType<DashBar>();
+            if (dashBar != null) {
+                dashBar.StartDash(); // Обновляем состояние DashBar
+            }
+        }
+    }
 
-        if (dashCoolCounter > 0) {   
-            dashCoolCounter -= Time.deltaTime;   
-        }   
+    if (dashCounter > 0) {
+        dashCounter -= Time.deltaTime;
+        if (dashCounter <= 0) {
+            dashCoolCounter = dashCooldown;
+            isDashing = false; // Сбрасываем состояние даша
 
-        HandleMovement(); // Вызываем метод для обработки движения  
-        HandleWalkingSound(); // Вызываем метод для обработки звука шагов 
-    }   
+            // Оповещение DashBar о завершении даша
+            DashBar dashBar = Object.FindFirstObjectByType<DashBar>();
+            if (dashBar != null) {
+                dashBar.IsDashing = false; // Сброс триггера у DashBar
+            }
+        }
+    }
+
+    if (dashCoolCounter > 0) {
+        dashCoolCounter -= Time.deltaTime;
+    }
+
+    HandleMovement();
+    HandleWalkingSound();
+}
+
+
 
     private void FixedUpdate() {   
         isRunning = moveInput.magnitude > 0.1f;  
     }   
+    
 
     private void HandleMovement() {  
         if (dashCounter <= 0) {  
