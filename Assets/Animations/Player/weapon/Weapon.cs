@@ -6,7 +6,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private GameObject bulletPrefab; 
     [SerializeField] private Transform firePoint; 
     [SerializeField] private float bulletSpeed = 20f; 
-    [SerializeField] private int maxAmmo = 30; 
+    [SerializeField] public int maxAmmo = 30; 
     [SerializeField] private float reloadTime = 1.5f; 
     [SerializeField] private float fireRate = 0.5f; 
     [SerializeField] private AudioClip shootSound; 
@@ -16,7 +16,8 @@ public class Weapon : MonoBehaviour
     [SerializeField] private AudioSource audioSource; // Ссылка на AudioSource
 
     public int currentAmmo; 
-    private bool isReloading = false; 
+    public bool isReloading { get; private set; } // Теперь это свойство
+
     private float nextFireTime = 0f; 
 
     void Start() 
