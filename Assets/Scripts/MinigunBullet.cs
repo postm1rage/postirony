@@ -1,31 +1,31 @@
-using UnityEngine;
+using UnityEngine; 
 
-public class minigun_Bullet : MonoBehaviour  
-{  
-    [SerializeField] private int damage = 10; 
-    public float lifetime = 2f;  
-     
-    void Start()  
-    {  
-        Destroy(gameObject, lifetime);  
-    }  
+public class minigun_Bullet : MonoBehaviour   
+{   
+    [SerializeField] private int damage = 10;  
+    public float lifetime = 2f;   
 
-    void OnTriggerEnter2D(Collider2D collision)  
-    {  
-        if (collision.CompareTag("Player"))  
-        {  
-            Player player = collision.GetComponent<Player>(); 
+    void Start()   
+    {   
+        Destroy(gameObject, lifetime);   
+    }   
 
-            if (player != null) 
+    void OnTriggerEnter2D(Collider2D collision)   
+    {   
+        if (collision.CompareTag("Player"))   
+        {   
+            HealthBar healthBar = collision.GetComponent<HealthBar>();  
+
+            if (healthBar != null)  
+            {  
+                healthBar.TakeDamage(damage);  // Наносим урон через HealthBar
+            }  
+            else  
             { 
-                player.TakeDamage(damage); 
+                Debug.Log("Компонент HealthBar не найден на объекте " + collision.gameObject.name);  
             } 
-            else 
-            {
-                Debug.Log("Компонент Player не найден на объекте " + collision.gameObject.name); 
-            }
 
-            Destroy(gameObject);  
-        }  
-    }  
+            Destroy(gameObject);   
+        }   
+    }   
 }

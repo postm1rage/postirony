@@ -5,7 +5,6 @@ using UnityEngine.UI;
 public class Player : MonoBehaviour {   
 
     public static Player Instance { get; private set; }   
-    public Image healthBarImage;
     public Player player;
     [SerializeField] private float movingSpeed = 10f;   
     public float dashSpeed = 20f;   
@@ -134,7 +133,7 @@ public class Player : MonoBehaviour {
     public void TakeDamage(int damage)
     {
     currentHealth -= damage; // Уменьшаем здоровье на величину урона
-    //currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+    currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         if (currentHealth <= 0)
         {
             Die();
