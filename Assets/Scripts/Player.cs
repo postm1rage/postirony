@@ -68,8 +68,6 @@ public class Player : MonoBehaviour {
 
         HandleMovement(); // Вызываем метод для обработки движения  
         HandleWalkingSound(); // Вызываем метод для обработки звука шагов 
-        float healthPercentage = (float)player.currentHealth / player.maxHealth;
-        healthBarImage.fillAmount = healthPercentage;
     }   
 
     private void FixedUpdate() {   
