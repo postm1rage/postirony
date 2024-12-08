@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\MinigunBullet.cs" />
     <Compile Include="Assets\Scripts\FirstBossShooting.cs" />
+    <Compile Include="Assets\Scripts\PlayerHealthBar.cs" />
     <Compile Include="Assets\Animations\Player\weapon\Bullet.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerVisual.cs" />

@@ -1,10 +1,12 @@
 using System.Collections;  
-using UnityEngine;  
+using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : MonoBehaviour {   
 
     public static Player Instance { get; private set; }   
-
+    public Image healthBarImage;
+    public Player player;
     [SerializeField] private float movingSpeed = 10f;   
     public float dashSpeed = 20f;   
     public float dashLength = .5f;   
@@ -24,7 +26,7 @@ public class Player : MonoBehaviour {
     private float dashCoolCounter;   
     private float walkSoundTimer = 0.0f; // Таймер для звука шагов 
     public float walkSoundInterval = 0.5f; // Интервал воспроизведения звука шагов
-    int currentHealth;
+    public int currentHealth;
     public int maxHealth = 100;
 
     void Start()
@@ -66,6 +68,8 @@ public class Player : MonoBehaviour {
 
         HandleMovement(); // Вызываем метод для обработки движения  
         HandleWalkingSound(); // Вызываем метод для обработки звука шагов 
+        float healthPercentage = (float)player.currentHealth / player.maxHealth;
+        healthBarImage.fillAmount = healthPercentage;
     }   
 
     private void FixedUpdate() {   
@@ -132,11 +136,11 @@ public class Player : MonoBehaviour {
     public void TakeDamage(int damage)
     {
     currentHealth -= damage; // Уменьшаем здоровье на величину урона
-
-    if (currentHealth <= 0)
-    {
-        Die();
-    }
+    //currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
 
     private IEnumerator DestroyParticles(GameObject particles) { 
