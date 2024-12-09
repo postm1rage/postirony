@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Boss
   - Bullet
+  - Weapon
+  - PlayerVisual
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX
@@ -15,7 +18,7 @@ TagManager:
   - UI
   - Bullet
   - Player
-  - 
+  - Weapon
   - 
   - 
   - 
