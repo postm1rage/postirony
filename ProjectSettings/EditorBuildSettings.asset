@@ -14,9 +14,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/plot.unity
     guid: 556fd54be7e4e2742aa386adf1dc5577
-  - enabled: 1
-    path: Assets/Scenes/postirony 1.unity
+  - enabled: 0
+    path: Assets/Scenes/WIP_1.unity
     guid: 9eeaac6ea527626429f256b9f5cd9c56
+  - enabled: 1
+    path: Assets/Scenes/ZeroRoom.unity
+    guid: febec683e4f64164c9cdc5cdd304e509
+  - enabled: 1
+    path: Assets/Scenes/FirstRoom.unity
+    guid: e00676cf5024b0942895aae3112c0471
+  - enabled: 1
+    path: Assets/Scenes/SecondRoom.unity
+    guid: 88385ef1f8382634fb4b298b8172bef4
+  - enabled: 1
+    path: Assets/Scenes/ThirdRoom.unity
+    guid: d041dd0b9d064af428184d68a8a2e8fd
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 115728cb73b270243b13efce0cc5e632, type: 3}
   m_UseUCBPForAssetBundles: 0
