@@ -1,4 +1,5 @@
-using UnityEngine;  
+using UnityEngine;
+using UnityEngine.UI;
 
 public class BossBehavior : MonoBehaviour  
 {  
@@ -8,17 +9,18 @@ public class BossBehavior : MonoBehaviour
     public float moveSpeed = 1.5f; // Скорость передвижения  
     public int maxHealth = 1000; // Максимальное здоровье  
     private int currentHealth; // Текущее здоровье  
-    private SpriteRenderer spriteRenderer;  
+    private SpriteRenderer spriteRenderer;
+    public Image Healthbar;
 
     private void Awake()  
     {  
         spriteRenderer = GetComponent<SpriteRenderer>();  
-    }  
+    }
 
-    void Start()  
-    {  
-        currentHealth = maxHealth; // Инициализация текущего здоровья  
-        UpdateHealthBar();  
+    void Start()
+    {
+        currentHealth = maxHealth;
+        UpdateHealthBar();
     }
 
     public void TakeDamage(int damage)  
@@ -30,13 +32,12 @@ public class BossBehavior : MonoBehaviour
             Die();  
         }  
         UpdateHealthBar();  
-    }  
-
-    private void UpdateHealthBar()  
-    {  
-        // Обновление индикатора здоровья (если используется)
-    }  
-
+    }
+    void UpdateHealthBar()
+    {
+        float healthRatio = (float)currentHealth / maxHealth;
+        Healthbar.fillAmount = healthRatio;
+    }
     void Die()  
     {  
         Destroy(gameObject);  
