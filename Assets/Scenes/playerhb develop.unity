@@ -815,6 +815,8 @@ MonoBehaviour:
   maxDistance: 10
   moveSpeed: 1.5
   maxHealth: 1000
+  healthBarRect: {fileID: 746007137}
+  initialBar: 0
 --- !u!70 &233873464
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
