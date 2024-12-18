@@ -3,34 +3,33 @@ using UnityEngine.UI;
 
 public class SecondBossBehaviour : MonoBehaviour, IBoss
 {
-    public Image Healthbar;
-    public int maxHealth = 10; // Максимальное здоровье  
-    private float currentHealth; // Текущее здоровье  
+    public int maxHealth = 1000; // Максимальное здоровье
+    private int currentHealth; // Текущее здоровье
+    public int CurrentHealth => currentHealth;
+    public int MaxHealth => maxHealth;  
+
     void Start()
     {
-        currentHealth = maxHealth;
-        UpdateHealthBar();
+        currentHealth = maxHealth; // Устанавливаем текущее здоровье равным максимальному
     }
-    void UpdateHealthBar()
-    {
-        float healthRatio = (float)currentHealth / maxHealth;
-        Healthbar.fillAmount = healthRatio;
-    }
+
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
-        if (currentHealth <= 0)
+        if (currentHealth < 0) currentHealth = 0; // Убедитесь, что здоровье не отрицательное
+        if (currentHealth == 0)
         {
             Die();
         }
     }
+
     void Die()
     {
         Destroy(gameObject);
     }
-    // Update is called once per frame
+
     void Update()
     {
-        
+        // Логика второго босса (если нужна)
     }
 }

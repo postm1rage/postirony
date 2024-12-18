@@ -42,13 +42,4 @@ public class HealthBar : MonoBehaviour
             gameObject.SetActive(false);  
         }  
     } 
-
-    void Update()  
-    {  
-        // Для тестирования: наносим урон при нажатии пробела  
-        if (Input.GetKeyDown(KeyCode.Space))  
-        {  
-            TakeDamage(10f); // Наносим 10 урона  
-        }  
-    }  
 }
