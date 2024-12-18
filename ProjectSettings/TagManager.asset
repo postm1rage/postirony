@@ -9,6 +9,7 @@ TagManager:
   - Weapon
   - PlayerVisual
   - SpawnPoint
+  - BackgroundMusic
   layers:
   - Default
   - TransparentFX
