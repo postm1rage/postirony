@@ -14,9 +14,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/plot.unity
     guid: 556fd54be7e4e2742aa386adf1dc5577
-  - enabled: 0
-    path: Assets/Scenes/WIP_1.unity
-    guid: 9eeaac6ea527626429f256b9f5cd9c56
   - enabled: 1
     path: Assets/Scenes/ZeroRoom.unity
     guid: febec683e4f64164c9cdc5cdd304e509

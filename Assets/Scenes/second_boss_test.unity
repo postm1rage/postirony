@@ -13864,7 +13864,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ammoText: {fileID: 88926201}
-  weapon: {fileID: 0}
+  weapon: {fileID: 155962534}
 --- !u!114 &1135125688
 MonoBehaviour:
   m_ObjectHideFlags: 0
