@@ -1,75 +1,72 @@
-using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
-
-public class DashBar : MonoBehaviour
-{
-    public float returnDuration = 1f; // Длительность возвращения бара
-    public RectTransform dashBarRect; // Ссылка на RectTransform бара даша
-    private float initialBarHeight; // Начальная высота даша
-    private bool isInCooldown = false; // Флаг для отслеживания состояния КД
-    private bool isDashingActive = false; // Флаг для отслеживания состояния даша
-    private Player player; // Ссылка на компонент Player
-
-    public bool IsDashing { get; set; } // Триггер для проверки состояния даша
-
-    private void Start()
-    {
-        initialBarHeight = dashBarRect.sizeDelta.y; // Сохраняем начальную высоту даша
-        UpdateDashBar(); // Обновляем бар в начале
-        player = Player.Instance; // Получаем ссылку на игрока
-    }
-
-    public void StartDash()
-{
-    // Проверяем, в состоянии ли даш игрока или даш уже в процессе отката
-    if (player.isDashing || isInCooldown) return;
-
-    isDashingActive = true; // Устанавливаем флаг активности даша
-    IsDashing = true; // Устанавливаем триггер в true
-
-    // Резкое уменьшение до нуля
-    dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, 0);
-    isInCooldown = true; // Устанавливаем, что начат откат
-    StartCoroutine(ReturnDashBar());
-}
-
-    private IEnumerator ReturnDashBar()
-    {
-        // Плавное возвращение бара к начальному размеру
+using UnityEngine; 
+using UnityEngine.UI; 
+using System.Collections; 
+ 
+public class DashBar : MonoBehaviour 
+{ 
+    public float returnDuration = 1f; // Длительность возвращения бара 
+    public RectTransform dashBarRect; // Ссылка на RectTransform бара даша 
+    private float initialBarHeight; // Начальная высота даша 
+    private bool isInCooldown = false; // Флаг для отслеживания состояния КД 
+    private Player player; // Ссылка на компонент Player 
+ 
+    public bool IsDashing { get; set; } // Триггер для проверки состояния даша 
+ 
+    [SerializeField] 
+    private float cooldownTime = 2f; // Время между нажатиями ПКМ 
+    private float lastClickTime = 0f; // Время последнего нажатия 
+ 
+    private void Start() 
+    { 
+        initialBarHeight = dashBarRect.sizeDelta.y; // Сохраняем начальную высоту даша 
+        UpdateDashBar(); // Обновляем бар в начале 
+        player = Player.Instance; // Получаем ссылку на игрока 
+    } 
+ 
+    public void StartDash() 
+    { 
+        if (isInCooldown) return; // Если в состоянии КД, выходим из метода
+ 
         isInCooldown = true; // Устанавливаем, что начат откат
-        float elapsedTime = 0f;
-        while (elapsedTime < returnDuration)
-        {
-            elapsedTime += Time.deltaTime;
-            float newHeight = Mathf.Lerp(0, initialBarHeight, elapsedTime / returnDuration);
-            dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, newHeight);
-            yield return null; // Ждем один кадр
-        }
-        
-        // Убедимся, что бар точно вернулся к начальному размеру
-        dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, initialBarHeight);
-        isInCooldown = false; // Сбрасываем флаг КД после завершения
-        isDashingActive = false; // Сбрасываем флаг активности даша
-    }
+        IsDashing = true; // Устанавливаем триггер в true 
 
-    private void UpdateDashBar()
-    {
-        dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, initialBarHeight);
-    }
+        // Резкое уменьшение до нуля 
+        dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, 0); 
+        StartCoroutine(ReturnDashBar()); 
+    } 
+ 
+    private IEnumerator ReturnDashBar() 
+    { 
+        // Плавное возвращение бара к начальному размеру 
+        float elapsedTime = 0f; 
+        while (elapsedTime < returnDuration) 
+        { 
+            elapsedTime += Time.deltaTime; 
+            float newHeight = Mathf.Lerp(0, initialBarHeight, elapsedTime / returnDuration); 
+            dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, newHeight); 
+            yield return null; // Ждем один кадр 
+        } 
 
-    private void Update()
-    {
-        // Для тестирования: начинаем даш при нажатии ПКМ
+        // Убедимся, что бар точно вернулся к начальному размеру 
+        dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, initialBarHeight); 
+        isInCooldown = false; // Сбрасываем флаг КД после завершения 
+    } 
+ 
+    private void UpdateDashBar() 
+    { 
+        dashBarRect.sizeDelta = new Vector2(dashBarRect.sizeDelta.x, initialBarHeight); 
+    } 
+ 
+    private void Update() 
+    { 
+        // Проверяем, прошло ли достаточно времени с последнего нажатия ПКМ
         if (Input.GetMouseButtonDown(1)) // 1 - это ПКМ
         {
-            StartDash(); // Начинаем даш
+            if (Time.time >= lastClickTime + cooldownTime) // Проверяем КД
+            {
+                lastClickTime = Time.time; // Обновляем время последнего нажатия
+                StartDash(); // Начинаем даш
+            }
         }
-
-        // Для тестирования: останавливаем даш при отпускании ПКМ
-        if (Input.GetMouseButtonUp(1)) // 1 - это ПКМ
-        {
-            IsDashing = false; // Устанавливаем триггер в false
-        }
-    }
+    } 
 }
