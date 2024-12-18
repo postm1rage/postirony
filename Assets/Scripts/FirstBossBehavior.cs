@@ -1,14 +1,14 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class BossBehavior : MonoBehaviour  
+public class BossBehavior : MonoBehaviour, IBoss
 {  
     public Transform player; // Ссылка на игрока  
     public float minDistance = 5f; // Минимальная дистанция до игрока  
     public float maxDistance = 10f; // Максимальная дистанция до игрока  
     public float moveSpeed = 1.5f; // Скорость передвижения  
-    public int maxHealth = 1000; // Максимальное здоровье  
-    private int currentHealth; // Текущее здоровье  
+    public int health = 1000; // Максимальное здоровье  
+    [SerializeField] private int currentHealth; // Текущее здоровье  
     private SpriteRenderer spriteRenderer;
     public Image Healthbar;
 
@@ -19,23 +19,21 @@ public class BossBehavior : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
+        currentHealth = health;
         UpdateHealthBar();
     }
 
-    public void TakeDamage(int damage)  
-    {  
-        currentHealth -= damage; // Уменьшаем текущее здоровье  
-
-        if (currentHealth <= 0)  
-        {  
-            Die();  
-        }  
-        UpdateHealthBar();  
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
     }
     void UpdateHealthBar()
     {
-        float healthRatio = (float)currentHealth / maxHealth;
+        float healthRatio = (float)currentHealth / health;
         Healthbar.fillAmount = healthRatio;
     }
     void Die()  

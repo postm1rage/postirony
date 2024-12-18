@@ -2,8 +2,8 @@ using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class Player : MonoBehaviour {   
-
+public class Player : MonoBehaviour
+{   
     public static Player Instance { get; private set; }   
     public Player player;
     [SerializeField] private float movingSpeed = 10f;   

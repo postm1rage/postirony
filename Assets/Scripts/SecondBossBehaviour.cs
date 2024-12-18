@@ -1,10 +1,10 @@
 using UnityEngine;
 using UnityEngine.UI;
 
-public class SecondBossBehaviour : MonoBehaviour
+public class SecondBossBehaviour : MonoBehaviour, IBoss
 {
     public Image Healthbar;
-    public int maxHealth = 1000; // Максимальное здоровье  
+    public int maxHealth = 10; // Максимальное здоровье  
     private float currentHealth; // Текущее здоровье  
     void Start()
     {
@@ -21,10 +21,8 @@ public class SecondBossBehaviour : MonoBehaviour
         currentHealth -= damage;
         if (currentHealth <= 0)
         {
-            currentHealth = 0;
-            // Здесь можно добавить логику для смерти босса
+            Die();
         }
-        UpdateHealthBar();
     }
     void Die()
     {

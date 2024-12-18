@@ -10,6 +10,8 @@ TagManager:
   - PlayerVisual
   - SpawnPoint
   - BackgroundMusic
+  - PlayerBullet
+  - SecondBoss
   layers:
   - Default
   - TransparentFX

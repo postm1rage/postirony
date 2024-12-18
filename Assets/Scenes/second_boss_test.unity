@@ -2483,7 +2483,7 @@ GameObject:
   - component: {fileID: 175072441}
   m_Layer: 0
   m_Name: SecondBoss
-  m_TagString: Boss
+  m_TagString: SecondBoss
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2599,7 +2599,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Healthbar: {fileID: 725148171}
-  maxHealth: 1000
+  maxHealth: 10
 --- !u!70 &175072441
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -6975,7 +6975,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 245906435509863613, guid: ee03499e0fb9f7340b84fb1857e00e9b, type: 3}
   bulletPrefab2: {fileID: 245906435509863613, guid: bcbd9807ba60e14408868c6ac818766f, type: 3}
   bulletPrefab3: {fileID: 245906435509863613, guid: 1b870bd1c24ed4f48892d13e8f42f813, type: 3}
-  Player: {fileID: 0}
+  Player: {fileID: 195678929}
   fireRate: 2
   damage: 10
   bulletSpeed: 5
@@ -18779,6 +18779,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   returnDuration: 1
   dashBarRect: {fileID: 1526319793}
+  cooldownTime: 2
 --- !u!114 &1526319795
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -20,7 +20,7 @@ public class Boss : MonoBehaviour
     private Vector3 originalPosition;
     public int damage = 10; //     ,                       
 
-
+     private Player player;
     void Start()
     {
         //                                  
