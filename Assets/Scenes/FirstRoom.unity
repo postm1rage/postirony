@@ -131,6 +131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (176)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -192,6 +196,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (069)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -255,6 +263,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (159)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8812904
@@ -317,6 +329,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -378,7 +394,7 @@ GameObject:
   - component: {fileID: 43078013}
   m_Layer: 0
   m_Name: Room
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -727,6 +743,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (146)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -788,6 +808,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (046)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -891,6 +915,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -952,6 +980,10 @@ PrefabInstance:
     - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
       propertyPath: m_Name
       value: Wall (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1233,6 +1265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (29)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -1294,6 +1330,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (149)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1357,6 +1397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (111)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8812904
@@ -1418,6 +1462,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (095)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1520,6 +1568,10 @@ PrefabInstance:
     - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
       propertyPath: m_Name
       value: Computer (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5035285052410187415, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
       propertyPath: m_SortingOrder
@@ -1683,6 +1735,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8812904
@@ -1816,6 +1872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1837,6 +1897,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (135)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1900,6 +1964,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (064)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -1961,6 +2029,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (34)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2024,6 +2096,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (096)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.88129
@@ -2085,6 +2161,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (078)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2188,6 +2268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2209,6 +2293,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (083)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2271,6 +2359,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (123)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2697,6 +2789,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.88129
@@ -2758,6 +2854,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2821,7 +2921,7 @@ GameObject:
   - component: {fileID: 182997495}
   m_Layer: 0
   m_Name: Square (4)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2907,6 +3007,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (24)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3009,6 +3113,10 @@ PrefabInstance:
     - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
       propertyPath: m_Name
       value: Wall (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3274,7 +3382,7 @@ Transform:
   m_GameObject: {fileID: 195678929}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.96, y: 2.33, z: 0}
+  m_LocalPosition: {x: -7.54, y: -4.54, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3445,6 +3553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (055)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.88129
@@ -3547,6 +3659,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3568,6 +3684,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3631,6 +3751,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (116)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8812904
@@ -3692,6 +3816,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (060)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3755,6 +3883,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (065)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -3816,6 +3948,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (167)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3919,6 +4055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3940,6 +4080,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (170)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4003,6 +4147,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (076)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.88129
@@ -4064,6 +4212,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (134)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4167,6 +4319,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4229,6 +4385,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5035285052410187415, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -4254,6 +4414,10 @@ PrefabInstance:
     - target: {fileID: 7867292691753568647, guid: 8eeae08b3a4a78e4b8ebd58fef75ea79, type: 3}
       propertyPath: m_Name
       value: BarierDownRight
+      objectReference: {fileID: 0}
+    - target: {fileID: 7867292691753568647, guid: 8eeae08b3a4a78e4b8ebd58fef75ea79, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8315652324958454971, guid: 8eeae08b3a4a78e4b8ebd58fef75ea79, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4317,6 +4481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (147)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -4378,6 +4546,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (109)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4441,6 +4613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -4502,6 +4678,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (073)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4565,6 +4745,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterSign
       objectReference: {fileID: 0}
+    - target: {fileID: 895369740535287781, guid: c5f66a1bb5ea1104c9755a6696855507, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4118012959830633476, guid: c5f66a1bb5ea1104c9755a6696855507, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -4626,6 +4810,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4729,6 +4917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Right
       objectReference: {fileID: 0}
+    - target: {fileID: 6342691722369098845, guid: e5c4ca92753144446a85d0fad1527c9f, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4791,6 +4983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4812,6 +5008,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (075)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4915,6 +5115,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4936,6 +5140,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (163)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5039,6 +5247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5060,6 +5272,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (079)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5123,6 +5339,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -5184,6 +5404,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (121)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5287,6 +5511,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5308,6 +5536,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (063)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5411,6 +5643,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5432,6 +5668,10 @@ PrefabInstance:
     - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_Name
       value: BarierRight (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5494,6 +5734,10 @@ PrefabInstance:
     - target: {fileID: 1162988341919345642, guid: 12d05fc01725b9647a5cc1d9280a339b, type: 3}
       propertyPath: m_Name
       value: Door_Decoration (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1162988341919345642, guid: 12d05fc01725b9647a5cc1d9280a339b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 1162988341919345642, guid: 12d05fc01725b9647a5cc1d9280a339b, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -5573,6 +5817,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -5634,6 +5882,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (25)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6025,6 +6277,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_1 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -6127,6 +6383,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6148,6 +6408,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (094)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6211,6 +6475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -6272,6 +6540,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6335,6 +6607,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -6396,6 +6672,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (118)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6459,6 +6739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (107)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -6520,6 +6804,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (112)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6583,6 +6871,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (141)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -6644,6 +6936,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6707,6 +7003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (32)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -6769,6 +7069,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -6830,6 +7134,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6968,6 +7276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (091)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -7070,6 +7382,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaterOops
       objectReference: {fileID: 0}
+    - target: {fileID: 8031842619122079631, guid: 7577dcd80aeb9f04da51da28771740f3, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7091,6 +7407,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (26)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7154,6 +7474,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (041)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.88129
@@ -7216,6 +7540,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (097)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.88129
@@ -7277,6 +7605,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (045)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7468,6 +7800,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7489,6 +7825,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7552,6 +7892,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -7613,6 +7957,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (043)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7716,6 +8064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7737,6 +8089,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (142)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7800,6 +8156,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (061)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -7861,6 +8221,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (165)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7964,6 +8328,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ExitSign
       objectReference: {fileID: 0}
+    - target: {fileID: 6447885066380088671, guid: 7a572e9a4af01fd4fb379f33092d9ea4, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7985,6 +8353,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (156)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8048,6 +8420,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8812904
@@ -8109,6 +8485,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (168)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8172,6 +8552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (037)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.88129
@@ -8233,6 +8617,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (178)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8296,6 +8684,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (120)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8812904
@@ -8357,6 +8749,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (174)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8460,6 +8856,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer_wall (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6947085874068822259, guid: 4ca382bc0d3c737498b814163e601c65, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8514175152470533382, guid: 4ca382bc0d3c737498b814163e601c65, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -8485,6 +8885,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (155)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8547,6 +8951,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (179)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8650,6 +9058,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer_wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6947085874068822259, guid: 4ca382bc0d3c737498b814163e601c65, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8671,6 +9083,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (052)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8733,6 +9149,10 @@ PrefabInstance:
     - target: {fileID: 1745182687049227534, guid: 8296e9f0c01bdaf41b65e80d085b48f9, type: 3}
       propertyPath: m_Name
       value: Wending_machine
+      objectReference: {fileID: 0}
+    - target: {fileID: 1745182687049227534, guid: 8296e9f0c01bdaf41b65e80d085b48f9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 4987760704844084011, guid: 8296e9f0c01bdaf41b65e80d085b48f9, type: 3}
       propertyPath: m_SortingOrder
@@ -8804,6 +9224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (085)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -8865,6 +9289,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8928,6 +9356,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -8989,6 +9421,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (115)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9052,6 +9488,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (106)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -9113,6 +9553,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (113)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9176,6 +9620,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (068)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.88129
@@ -9237,6 +9685,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (102)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9340,6 +9792,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTopRight
       objectReference: {fileID: 0}
+    - target: {fileID: 3307133403308073108, guid: fe261788e2889d04e8b6d33dfe1d6ee3, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9402,6 +9858,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cork_desk
       objectReference: {fileID: 0}
+    - target: {fileID: 8392774906458581450, guid: b63a42b85314322468464e6ac6f218da, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9424,7 +9884,7 @@ GameObject:
   - component: {fileID: 756239798}
   m_Layer: 0
   m_Name: Square (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9511,6 +9971,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -9572,6 +10036,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (103)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9635,6 +10103,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -9697,6 +10169,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (050)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.88129
@@ -9758,6 +10234,10 @@ PrefabInstance:
     - target: {fileID: 7152157694673204850, guid: 8a90c713f5895c54183f610614a6dd9b, type: 3}
       propertyPath: m_Name
       value: FakeDoor_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7152157694673204850, guid: 8a90c713f5895c54183f610614a6dd9b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7821756960360365292, guid: 8a90c713f5895c54183f610614a6dd9b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9861,6 +10341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Right (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6342691722369098845, guid: e5c4ca92753144446a85d0fad1527c9f, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -9882,6 +10366,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (099)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9985,6 +10473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10006,6 +10498,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10069,6 +10565,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (31)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -10130,6 +10630,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10233,6 +10737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10254,6 +10762,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (18)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10317,6 +10829,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -10378,6 +10894,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10441,6 +10961,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (09)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -10502,6 +11026,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10565,6 +11093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (145)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -10626,6 +11158,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (124)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10689,6 +11225,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (070)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.88129
@@ -10750,6 +11290,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (047)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10813,6 +11357,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -10874,6 +11422,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -10985,6 +11537,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Water_boiler
       objectReference: {fileID: 0}
+    - target: {fileID: 7242925946478760595, guid: da5c5a8f694f57541bcba06401452738, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11006,6 +11562,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (054)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11069,6 +11629,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (148)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -11130,6 +11694,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (153)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11193,6 +11761,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1187096
@@ -11254,6 +11826,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (067)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11317,6 +11893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -11379,6 +11959,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (151)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8812904
@@ -11440,6 +12024,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (039)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11543,6 +12131,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDownLeft
       objectReference: {fileID: 0}
+    - target: {fileID: 8823772754180348580, guid: df369ffd44c6b44418bc7a5f416c61dc, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11564,6 +12156,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11628,7 +12224,7 @@ GameObject:
   - component: {fileID: 981251801}
   m_Layer: 0
   m_Name: Office-inviroment 1_6
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11801,6 +12397,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11822,6 +12422,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (122)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -11885,6 +12489,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (125)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8812904
@@ -11946,6 +12554,10 @@ PrefabInstance:
     - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_Name
       value: Table_1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12009,6 +12621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (053)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.88129
@@ -12071,6 +12687,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (077)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.88129
@@ -12132,6 +12752,10 @@ PrefabInstance:
     - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_Name
       value: Table_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12235,6 +12859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12297,6 +12925,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12318,6 +12950,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (126)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12381,6 +13017,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -12442,6 +13082,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12505,6 +13149,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (35)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8812904
@@ -12566,6 +13214,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (30)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12629,6 +13281,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8812904
@@ -12690,6 +13346,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (161)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12753,6 +13413,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -12815,6 +13479,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (138)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8812904
@@ -12876,6 +13544,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (105)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13109,6 +13781,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13170,6 +13846,10 @@ PrefabInstance:
     - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
       propertyPath: m_Name
       value: Wall (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13233,6 +13913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13254,6 +13938,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (162)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13316,6 +14004,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (066)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13422,6 +14114,10 @@ PrefabInstance:
     - target: {fileID: 1987229977521653316, guid: 45ca65040143cbd4095f6be4ce632c71, type: 3}
       propertyPath: m_Name
       value: TrashCan
+      objectReference: {fileID: 0}
+    - target: {fileID: 1987229977521653316, guid: 45ca65040143cbd4095f6be4ce632c71, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13574,6 +14270,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (101)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -13635,6 +14335,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (038)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13698,6 +14402,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (114)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8812904
@@ -13760,6 +14468,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (28)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 3.8812904
@@ -13821,6 +14533,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (33)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -13924,6 +14640,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -13945,6 +14665,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (132)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14048,6 +14772,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14071,7 +14799,7 @@ GameObject:
   - component: {fileID: 1224028290}
   m_Layer: 0
   m_Name: Office-inviroment 1_6 (2)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14244,6 +14972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -14265,6 +14997,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14328,6 +15064,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (150)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -14390,6 +15130,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (059)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 12.88129
@@ -14451,6 +15195,10 @@ PrefabInstance:
     - target: {fileID: 1415368531644287848, guid: 49e5f0df76b8f2547a0fc2274bb57052, type: 3}
       propertyPath: m_Name
       value: BarierTopLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 1415368531644287848, guid: 49e5f0df76b8f2547a0fc2274bb57052, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 3934681756026831888, guid: 49e5f0df76b8f2547a0fc2274bb57052, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14643,6 +15391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (092)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.88129
@@ -14704,6 +15456,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (158)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14767,6 +15523,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (110)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.8812904
@@ -14828,6 +15588,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (164)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -14891,6 +15655,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8812904
@@ -14952,6 +15720,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15055,6 +15827,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15117,6 +15893,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15138,6 +15918,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (098)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15241,6 +16025,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15262,6 +16050,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15324,6 +16116,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15548,6 +16344,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (177)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -15650,6 +16450,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15712,6 +16516,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -15733,6 +16541,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15804,6 +16616,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8812904
@@ -15865,6 +16681,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (062)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15928,6 +16748,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (08)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.8812904
@@ -15990,6 +16814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (173)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -16051,6 +16879,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (081)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16154,6 +16986,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16175,6 +17011,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (049)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16238,6 +17078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (042)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.88129
@@ -16299,6 +17143,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (048)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16402,6 +17250,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4283804167350092707, guid: feb8dad8eb21dc34285ae9eb6690919b, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16423,6 +17275,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (136)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16486,6 +17342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (057)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.88129
@@ -16547,6 +17407,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (093)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16610,7 +17474,7 @@ GameObject:
   - component: {fileID: 1396303372}
   m_Layer: 0
   m_Name: Square1
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -16697,6 +17561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -16758,6 +17626,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (139)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16821,6 +17693,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -16882,6 +17758,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -16945,6 +17825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -17006,6 +17890,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17069,6 +17957,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (087)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -17130,6 +18022,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (140)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17193,7 +18089,7 @@ GameObject:
   - component: {fileID: 1445048931}
   m_Layer: 0
   m_Name: Square (5)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17284,6 +18180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plant
       objectReference: {fileID: 0}
+    - target: {fileID: 6382304736751998843, guid: 960e2b08892c4384ba602385e3bb0386, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7015623806566506656, guid: 960e2b08892c4384ba602385e3bb0386, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.88129
@@ -17346,6 +18246,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (154)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8812904
@@ -17407,6 +18311,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (129)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17507,6 +18415,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (144)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -17568,6 +18480,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (133)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17722,6 +18638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (084)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -17783,6 +18703,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17846,7 +18770,7 @@ GameObject:
   - component: {fileID: 1538502752}
   m_Layer: 0
   m_Name: Square (3)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17973,6 +18897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Paper1
       objectReference: {fileID: 0}
+    - target: {fileID: 8121829461587205334, guid: d3293ea8c3a429045b1a5754deb103ce, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8681297155114224049, guid: d3293ea8c3a429045b1a5754deb103ce, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -17998,6 +18926,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18061,6 +18993,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (082)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.88129
@@ -18122,6 +19058,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (36)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18185,6 +19125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (108)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -18246,6 +19190,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (131)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18349,6 +19297,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18370,6 +19322,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (071)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18473,6 +19429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18494,6 +19454,10 @@ PrefabInstance:
     - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_Name
       value: Table_1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18597,6 +19561,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18618,6 +19586,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (044)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18681,6 +19653,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -18742,6 +19718,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (080)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18845,6 +19825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -18866,6 +19850,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -18929,6 +19917,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3.1187096
@@ -18991,6 +19983,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -19052,6 +20048,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (058)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19244,6 +20244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -19305,6 +20309,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19368,6 +20376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (166)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.118709564
@@ -19429,6 +20441,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19532,6 +20548,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19553,6 +20573,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (088)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19769,6 +20793,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (180)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -19831,6 +20859,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (130)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8812904
@@ -19892,6 +20924,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (100)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19956,7 +20992,7 @@ GameObject:
   - component: {fileID: 1822700951}
   m_Layer: 0
   m_Name: Office-inviroment 1_6 (1)
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20089,6 +21125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (143)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -20150,6 +21190,10 @@ PrefabInstance:
     - target: {fileID: 1823918073798081056, guid: 426b0ac8b3170a44f8436926d5dcff4d, type: 3}
       propertyPath: m_Name
       value: Desk
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823918073798081056, guid: 426b0ac8b3170a44f8436926d5dcff4d, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 3697018722537574427, guid: 426b0ac8b3170a44f8436926d5dcff4d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20213,6 +21257,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -20274,6 +21322,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (128)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20377,6 +21429,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Left
       objectReference: {fileID: 0}
+    - target: {fileID: 8166796626980327785, guid: 8bf98e539d7416e439296384e1c61371, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20398,6 +21454,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (169)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20460,6 +21520,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20563,6 +21627,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Wall (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4297897889787406184, guid: 5c24032c7f9f2d34281378eeeb5a05ba, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -20585,7 +21653,7 @@ GameObject:
   - component: {fileID: 1890688952}
   m_Layer: 0
   m_Name: Office-inviroment 1_20
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20672,6 +21740,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (119)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8812904
@@ -20733,6 +21805,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (090)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20796,6 +21872,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierDown (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8812904
@@ -20857,6 +21937,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (040)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -20920,6 +22004,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 2.8812904
@@ -20981,6 +22069,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21044,6 +22136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (160)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1187096
@@ -21105,6 +22201,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (137)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21168,6 +22268,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (172)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.1187096
@@ -21229,6 +22333,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21292,6 +22400,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (117)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.8812904
@@ -21354,6 +22466,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (089)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -21415,6 +22531,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (171)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21518,6 +22638,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Computer_wall
       objectReference: {fileID: 0}
+    - target: {fileID: 6947085874068822259, guid: 4ca382bc0d3c737498b814163e601c65, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8514175152470533382, guid: 4ca382bc0d3c737498b814163e601c65, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -21543,6 +22667,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21605,6 +22733,10 @@ PrefabInstance:
     - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_Name
       value: BarierRight (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21708,6 +22840,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -21729,6 +22865,10 @@ PrefabInstance:
     - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_Name
       value: Table_1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -21792,6 +22932,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (152)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.8812904
@@ -21854,7 +22998,7 @@ GameObject:
   - component: {fileID: 2000321009}
   m_Layer: 0
   m_Name: Office-inviroment 1_10
-  m_TagString: Untagged
+  m_TagString: Wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -21941,6 +23085,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierRight (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 4082763370524999321, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 5970742742804919564, guid: cd8831bea22c46b45962f63e074181f5, type: 3}
       propertyPath: m_LocalPosition.x
       value: -4.1187096
@@ -22002,6 +23150,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (157)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22065,6 +23217,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (104)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 9.88129
@@ -22126,6 +23282,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22189,6 +23349,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (072)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.88129
@@ -22250,6 +23414,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (175)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22313,6 +23481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (127)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.8812904
@@ -22374,6 +23546,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (051)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22437,6 +23613,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (056)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15.88129
@@ -22498,6 +23678,10 @@ PrefabInstance:
     - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_Name
       value: BarierDown (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758541415564659709, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7880350278951766932, guid: ceba4c64f64e89240bd47d88e97e9fe9, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22601,6 +23785,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierLeft (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6036286221807235419, guid: 247d715f232dda5499afee8a0eb32fd5, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22698,6 +23886,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.88129044
@@ -22759,6 +23951,10 @@ PrefabInstance:
     - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_Name
       value: Table_1 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4408391664962989573, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 8841486027121943788, guid: dc6e6c99e0bcec54ab524e2bf8076881, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22822,6 +24018,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Floor (086)
       objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11.88129
@@ -22883,6 +24083,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -22946,6 +24150,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BarierTop (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1187096
@@ -23007,6 +24215,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23165,6 +24377,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Chair_Right (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 6342691722369098845, guid: e5c4ca92753144446a85d0fad1527c9f, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23235,6 +24451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Table_2
       objectReference: {fileID: 0}
+    - target: {fileID: 9159212750470624206, guid: 29b83dca7896dc84a9251704a905e79d, type: 3}
+      propertyPath: m_TagString
+      value: Wall
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -23256,6 +24476,10 @@ PrefabInstance:
     - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_Name
       value: BarierTop (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2597529579810659298, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 6913947076101101126, guid: fe6f124997704ac4e8162aa27240ef70, type: 3}
       propertyPath: m_LocalPosition.x
@@ -23318,6 +24542,10 @@ PrefabInstance:
     - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_Name
       value: Floor (074)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1918481140109673771, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
+      propertyPath: m_TagString
+      value: Wall
       objectReference: {fileID: 0}
     - target: {fileID: 7737133150297449374, guid: 447fdca17a8af4d4bacd4c605182bb42, type: 3}
       propertyPath: m_LocalPosition.x

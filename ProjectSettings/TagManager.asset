@@ -12,6 +12,7 @@ TagManager:
   - BackgroundMusic
   - PlayerBullet
   - SecondBoss
+  - Wall
   layers:
   - Default
   - TransparentFX

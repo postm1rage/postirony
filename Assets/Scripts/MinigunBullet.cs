@@ -38,6 +38,11 @@ public class minigun_Bullet : MonoBehaviour
 
             Destroy(gameObject);
         }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            // Если пуля столкнулась с объектом со сценой с тегом "Default"
+            Destroy(gameObject); // Удаляем пулю
+        }
     }
 
 }

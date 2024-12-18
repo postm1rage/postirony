@@ -3,15 +3,15 @@ using UnityEngine;
 public class BBullet : MonoBehaviour
 {
     [SerializeField] private int damage = 10;
-    public float speed = 15f; // Скорость снаряда
-    public float radius = 1f; // Радиус круга, по которому будет двигаться снаряд
-    private float angle = 0f; // Начальный угол
+    public float speed = 15f; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
+    public float radius = 1f; // пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ, пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    private float angle = 0f; // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     public float lifetime = 6f;
 
 
     void Start()
     {
-        // Инициализируем угол с учетом положения снаряда
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
         angle = transform.eulerAngles.z;
         Destroy(gameObject, lifetime);
     }
@@ -24,28 +24,33 @@ public class BBullet : MonoBehaviour
 
             if (healthBar != null)
             {
-                healthBar.TakeDamage(damage);  // Наносим урон через HealthBar
+                healthBar.TakeDamage(damage);  // пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ HealthBar
             }
             else
             {
-                Debug.Log("Компонент HealthBar не найден на объекте " + collision.gameObject.name);
+                Debug.Log("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ HealthBar пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ " + collision.gameObject.name);
             }
 
             Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Wall"))
+        {
+            // Р•СЃР»Рё РїСѓР»СЏ СЃС‚РѕР»РєРЅСѓР»Р°СЃСЊ СЃ РѕР±СЉРµРєС‚РѕРј СЃРѕ СЃС†РµРЅРѕР№ СЃ С‚РµРіРѕРј "Default"
+            Destroy(gameObject); // РЈРґР°Р»СЏРµРј РїСѓР»СЋ
         }
     }
 
     void Update()
     {
         radius += 0.02f;
-        // Увеличиваем угол с каждым кадром
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         angle += speed * Time.deltaTime;
 
-        // Вычисляем новое положение снаряда по кругу
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         float x = Mathf.Cos(angle * Mathf.Deg2Rad) * radius - 0.5f;
         float y = Mathf.Sin(angle * Mathf.Deg2Rad) * radius - 0.3f;
 
-        // Устанавливаем новое положение снаряда на основе угла
+        // пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         transform.localPosition = new Vector3(x, y, 0);
     }
 
