@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\",
+  "WorkspaceRootPath": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\",
   "Documents": [
     {
       "AbsoluteMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|c:\\users\\kpek\\desktop\\postirony project\\postirony\\assets\\scripts\\newsceneload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\newsceneload.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Ilya\\UI\\PlayerHealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Ilya\\UI\\PlayerHealthBar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\FirstBossBehavior1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstBossBehavior1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\assets\\scripts\\cameracontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -37,6 +29,22 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\Teleport1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\Teleport1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:1:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|c:\\users\\kpek\\desktop\\postirony project\\postirony\\assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:1:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\FirstBossBehavior1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Scripts\\FirstBossBehavior1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:2:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|c:\\users\\kpek\\desktop\\postirony project\\postirony\\assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:2:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\firstbossbehavior.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Animations\\Player\\weapon\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6817245B-F8EE-6154-1C66-A79C280ADBBE}|Assembly-CSharp.csproj|solutionrelative:Assets\\Animations\\Player\\weapon\\Bullet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,8 +54,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerDashBar.cs",
+              "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Ilya\\UI\\PlayerDashBar.cs",
+              "RelativeDocumentMoniker": "Assets\\Ilya\\UI\\PlayerDashBar.cs",
+              "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Ilya\\UI\\PlayerDashBar.cs",
+              "RelativeToolTip": "Assets\\Ilya\\UI\\PlayerDashBar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:55:56.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bullet.cs",
+              "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Animations\\Player\\weapon\\Bullet.cs",
+              "RelativeDocumentMoniker": "Assets\\Animations\\Player\\weapon\\Bullet.cs",
+              "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Animations\\Player\\weapon\\Bullet.cs",
+              "RelativeToolTip": "Assets\\Animations\\Player\\weapon\\Bullet.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T13:26:11.461Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -56,14 +92,14 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\NewSceneLoad.cs",
               "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\NewSceneLoad.cs*",
               "RelativeToolTip": "Assets\\Scripts\\NewSceneLoad.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDgAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-17T04:05:13.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "CameraController.cs",
               "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\CameraController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\CameraController.cs",
@@ -75,7 +111,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "FirstBossBehavior1.cs",
               "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\FirstBossBehavior1.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstBossBehavior1.cs",
@@ -86,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "MusicManager.cs",
               "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\MusicManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MusicManager.cs",
@@ -98,11 +134,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "FirstBossBehavior.cs",
-              "DocumentMoniker": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\FirstBossBehavior.cs",
+              "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\FirstBossBehavior.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FirstBossBehavior.cs",
-              "ToolTip": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\FirstBossBehavior.cs",
+              "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\FirstBossBehavior.cs",
               "RelativeToolTip": "Assets\\Scripts\\FirstBossBehavior.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwCMAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -110,47 +146,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "SceneTP1.cs",
-              "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTP1.cs",
-              "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\SceneTP1.cs",
+              "DocumentMoniker": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\SceneTP1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\SceneTP1.cs",
+              "ToolTip": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\SceneTP1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\SceneTP1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T12:37:28.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-08T16:27:49.649Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 10,
               "Title": "SceneTP.cs",
               "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SceneTP.cs",
               "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Scripts\\SceneTP.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SceneTP.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T15:37:05.822Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
               "Title": "AnimationController.cs",
               "DocumentMoniker": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Kirill\\Loading screen\\AnimationController.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Kirill\\Loading screen\\AnimationController.cs",
+              "RelativeDocumentMoniker": "Assets\\Kirill\\Loading screen\\AnimationController.cs",
               "ToolTip": "C:\\Users\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Kirill\\Loading screen\\AnimationController.cs",
-              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Kpek\\Desktop\\POSTIRONY PROJECT\\postirony\\Assets\\Kirill\\Loading screen\\AnimationController.cs",
+              "RelativeToolTip": "Assets\\Kirill\\Loading screen\\AnimationController.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-08T15:12:18.441Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 6,
               "Title": "Teleport1.cs",
               "DocumentMoniker": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\Teleport1.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Teleport1.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\Teleport1.cs",
               "ToolTip": "C:\\Users\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\Teleport1.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Teleport1.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\esbab\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\\u041F\u0440\u043E\u0435\u043A\u0442\\\u0420\u0435\u0430\u043B\u0438\u0437\u0430\u0446\u0438\u044F\\postirony\\Assets\\Scripts\\Teleport1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAEYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-03T14:41:15.791Z"
