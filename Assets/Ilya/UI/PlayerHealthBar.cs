@@ -1,5 +1,8 @@
 using UnityEngine; 
 using UnityEngine.UI; 
+using UnityEngine.SceneManagement;
+using System.Collections;
+
 
 public class HealthBar : MonoBehaviour  
 {  
@@ -20,11 +23,25 @@ public class HealthBar : MonoBehaviour
 
         UpdateHealthBar();  
     }  
+    void Die()
+    {
+         SceneManager.LoadScene(0);
+    }
+
+    private IEnumerator DieCoroutine()
+    {
+        // Здесь можно добавить анимацию смерти или другие действия
+        yield return new WaitForSeconds(1f); // Подождите перед загрузкой
+        SceneManager.LoadScene(0);
+    }
 
     public void TakeDamage(float damage)  
     {  
         currentHealth -= damage;  
-        if (currentHealth < 0) currentHealth = 0; // Убедитесь, что здоровье не отрицательное  
+        if (currentHealth < 0) {
+            currentHealth = 0;
+            Die();
+            } // Убедитесь, что здоровье не отрицательное  
         UpdateHealthBar();  
     }  
 
@@ -35,11 +52,5 @@ public class HealthBar : MonoBehaviour
 
         // Устанавливаем верхнюю координату на фиксированное значение
         healthBarRect.anchoredPosition = new Vector2(healthBarRect.anchoredPosition.x, topYPosition);  
-
-        // Если здоровье 0, скрываем хитбар  
-        if (currentHealth <= 0)  
-        {  
-            gameObject.SetActive(false);  
-        }  
     } 
 }

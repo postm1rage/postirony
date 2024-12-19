@@ -1,6 +1,7 @@
 using System.Collections;  
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {   
@@ -136,9 +137,16 @@ public class Player : MonoBehaviour
         }
     }
 
-        void Die()
+    void Die()
     {
-        Destroy(gameObject);
+        StartCoroutine(DieCoroutine());
+    }
+
+    private IEnumerator DieCoroutine()
+    {
+        // Здесь можно добавить анимацию смерти или другие действия
+        yield return new WaitForSeconds(1f); // Подождите перед загрузкой
+        SceneManager.LoadScene(0);
     }
     private void PlayWalkSound() {
         if (walkSound != null && audioSource != null) {
