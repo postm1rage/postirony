@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8268993217057749371}
   - component: {fileID: 7007408278065714066}
   - component: {fileID: 4785175919706241458}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: Image
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ RectTransform:
   m_GameObject: {fileID: 760672831962416640}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 13.5252, y: 7.62093, z: 1.3005}
+  m_LocalScale: {x: 19.07954, y: 10.750588, z: 1.8345714}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2895418559908551968}
@@ -87,7 +87,7 @@ GameObject:
   - component: {fileID: 2853770535222984423}
   - component: {fileID: 5926060741410622114}
   - component: {fileID: 3695854921422984944}
-  m_Layer: 5
+  m_Layer: 9
   m_Name: LoadingScreen 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
